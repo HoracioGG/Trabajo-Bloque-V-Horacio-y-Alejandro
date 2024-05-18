@@ -40,7 +40,7 @@
 
 <details>
 
-<summary>Explicaión del script</summary>
+<summary>Explicación del script</summary>
 
 
 Explicacion del script
@@ -135,7 +135,7 @@ minutos (1800 seg) sin actividad, se le cierra la sesión.<br>
 
 <details>
 
-<summary>Explicaión del script</summary>
+<summary>Explicaicón del script</summary>
 
 Explicacion del script
 
@@ -216,7 +216,7 @@ BorrarUsuarios → Borra de forma masiva usuarios almacenados en el fichero
 
 <details>
 
-<summary>Explicaión del script</summary>
+<summary>Explicaicón del script</summary>
 
 Explicacion del script
 
@@ -254,7 +254,7 @@ la ejecución del scrip
 
 <details>
 
-<summary>Explicaión del script</summary>
+<summary>Explicación del script</summary>
 
 Explicacion del script
 
@@ -288,7 +288,7 @@ los usuarios cuyo uid >1000 y uid<2000.
 
 <details>
 
-<summary>Explicaión del script</summary>
+<summary>Explicación del script</summary>
 
 Explicacion del script
 
