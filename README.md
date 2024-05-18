@@ -44,6 +44,8 @@
 
 <summary>Explicación del script</summary>
 
+<p>Escribir aquí la explicacion del script</p>
+
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Script%20.png)
 
 </details>
@@ -132,7 +134,9 @@ minutos (1800 seg) sin actividad, se le cierra la sesión.<br>
 
 <summary>Explicaicón del script</summary>
 
-Explicacion del script
+<br>
+
+<p>Escribir aquí la explicacion del script</p>
 
 </details>
 
@@ -213,7 +217,9 @@ BorrarUsuarios → Borra de forma masiva usuarios almacenados en el fichero
 
 <summary>Explicaicón del script</summary>
 
-Explicacion del script
+<br>
+
+<p>Escribir aquí la explicacion del script</p>
 
 </details>
 
@@ -251,7 +257,9 @@ la ejecución del scrip
 
 <summary>Explicación del script</summary>
 
-Explicacion del script
+<br>
+
+<p>Escribir aquí la explicacion del script</p>
 
 </details>
 
@@ -285,7 +293,9 @@ los usuarios cuyo uid >1000 y uid<2000.
 
 <summary>Explicación del script</summary>
 
-Explicacion del script
+<br>
+
+<p>Escribir aquí la explicacion del script</p>
 
 </details>
 
