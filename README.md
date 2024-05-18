@@ -1,6 +1,6 @@
 # Trabajo-Bloque-V-Horacio-y-Alejandro
 
-![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/desktop-source-code-and-wallpaper-by-computer-language-with-coding-and-programming.jpg)
+![]([https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/desktop-source-code-and-wallpaper-by-computer-language-with-coding-and-programming.jpg](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/b09273d7dd331b25a497fad692a097ce.gif))
 <h1>Índice</h1>
 <ul>
   <li>Ejercicio 1</li>
