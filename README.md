@@ -16,19 +16,25 @@
 
 <h1>Ejercicio 1</h1>
 
-<h3>
+<details>
+
+<summary> Enunciado del ejercicio 1</summary>
+
+### Ejercicio 1
+
   Realiza un script llamado comprobarApache.sh, que compruebe cada minuto si el
-servicio apache2 está activo (running).
-Si está parado, entonces: <br> <br>
-1.- Introduce una línea: “Error-Apache: Fecha y hora actual” en /root/ApacheError.tmp,
-donde FechaActual, representa día, mes, año, hora y minuto. <br><br>
-2.- Reinicia el servicio apache2
-Para comprobarlo, para el servicio. Ejecuta el script en segundo plano y observa si lo
-reinicia y crea el archivo. <br><br>
-3.- Además del script, crea una tarea programada, de forma que ese script se ejecute cada
-6 horas, todos los días. Y si el ordenador está apagado, se debe ejecutar la próxima vez
-que se inicie, transcurrido cinco minutos.
-</h3>
+  servicio apache2 está activo (running).
+  Si está parado, entonces: <br> <br>
+  1.- Introduce una línea: “Error-Apache: Fecha y hora actual” en /root/ApacheError.tmp,
+  donde FechaActual, representa día, mes, año, hora y minuto. <br><br>
+  2.- Reinicia el servicio apache2
+  Para comprobarlo, para el servicio. Ejecuta el script en segundo plano y observa si lo
+  reinicia y crea el archivo. <br><br>
+  3.- Además del script, crea una tarea programada, de forma que ese script se ejecute cada
+  6 horas, todos los días. Y si el ordenador está apagado, se debe ejecutar la próxima vez
+  que se inicie, transcurrido cinco minutos.
+
+</details>
 
 <br>
 
@@ -147,6 +153,10 @@ minutos (1800 seg) sin actividad, se le cierra la sesión.<br>
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Script%20parte%202.png)
 
+<h2>a</h2>
+
+![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%204%20pregunta.png)
+
 <hr>
 
 <h2>Ejercicio 3</h2>
@@ -174,6 +184,7 @@ BorrarUsuarios → Borra de forma masiva usuarios almacenados en el fichero
 <hr>
 
 <h2>Ejercicio 4</h2>
+
 
 <h3>Crea en un script llamado crearUsuarios.sh que permita crear usuarios de forma
 automática.<br> Indicaciones:<br>
