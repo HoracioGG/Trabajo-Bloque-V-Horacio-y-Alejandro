@@ -14,7 +14,7 @@
 
 <br>
 
-<h1>Ejercicio 1</h1>
+<h1 align="center">Ejercicio 1</h1>
 
 <details>
 
@@ -142,7 +142,7 @@ comprobar_apache &
 <br>
 <br>
 
-<h1>Ejercicio 2</h1>
+<h1 align="center">Ejercicio 2</h1>
 
 <br>
 
@@ -315,7 +315,7 @@ done
 
 <hr>
 
-<h2>Ejercicio 3</h2>
+<h2 align="center">Ejercicio 3</h2>
 
 <details>
 
@@ -361,7 +361,7 @@ BorrarUsuarios → Borra de forma masiva usuarios almacenados en el fichero
 
 <hr>
 
-<h2>Ejercicio 4</h2>
+<h2 align="center">Ejercicio 4</h2>
 
 <details>
 
@@ -438,9 +438,11 @@ cat "usuariosCreados-$fecha.tmp"
 > Aquí ponemos los problemas.
 <br>
 
+![]()
+
 <hr>
 
-<h2>Ejercicio 5</h2>
+<h2 align="center">Ejercicio 5</h2>
 
 <details>
 
