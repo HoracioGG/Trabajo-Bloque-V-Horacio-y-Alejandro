@@ -105,7 +105,7 @@ comprobar_apache &
 <br>
 <br> 
 
-<h2 color="red" align="rigth">Reactivación del apache</h2>
+<h2 align="right">Reactivación del apache</h2>
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Reactivacion%20de%20apache.png)
 
