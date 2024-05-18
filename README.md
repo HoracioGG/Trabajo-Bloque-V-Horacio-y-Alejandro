@@ -97,7 +97,7 @@ comprobar_apache &
 
 <br>
 
-<h3>Tarea Programada</h3>
+<h2 color="red" align="rigth">Tarea Programada</h2>
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/TareaProgramada.png)
 
@@ -105,7 +105,7 @@ comprobar_apache &
 <br>
 <br> 
 
-<h3>Reactivación del apache</h3>
+<h2 color="red" align="rigth">Reactivación del apache</h2>
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Reactivacion%20de%20apache.png)
 
@@ -113,7 +113,7 @@ comprobar_apache &
 <br>
 <br>
 
-<h3>Archivo creado</h3>
+<h2 color="red" align="rigth">Archivo creado</h2>
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Archivo%20creado.png)
 
@@ -121,7 +121,7 @@ comprobar_apache &
 <br>
 <br>
 
-<h3>Activamos el apache</h3>
+<h2 color="red" align="rigth">Activamos el apache</h2>
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apache%20running.png)
 
@@ -129,7 +129,7 @@ comprobar_apache &
 <br>
 <br>
 
-<h3>Apache pausado</h3>
+<h2 color="red" align="rigth">Apache pausado</h2>
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apache%20parado.png)
 
@@ -284,28 +284,27 @@ done
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%201%20sin%20bloqueados.png)
 
 
-<h2>Apartado 2 pregunta</h2>
+<h2 color="red" align="rigth">Apartado 2 pregunta</h2>
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%202%20pregunta.png)
 
-<h2>Apartado 2 ya bloqueado</h2>
+<h2 color="red" align="rigth">Apartado 2 ya bloqueado</h2>
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%202%20ya%20bloqueado.png)
 
-<h2>Apartado 3 pregunta</h2>
+<h2 color="red" align="rigth">Apartado 3 pregunta</h2>
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%203%20pregunta.png)
 
-<h2>Apartado 3 ya desbloqueado</h2>
+<h2 color="red" align="rigth">Apartado 3 ya desbloqueado</h2>
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%203%20ya%20desbloqueado.png)
 
-<h2>Apartado 4 pregunta</h2>
+<h2 color="red" align="rigth">Apartado 4 pregunta</h2>
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%204%20usuario%20no%20conectado.png)
 
-
-<h2>Apartado 4 usuarios no conectados</h2>
+<h2 color="red" align="rigth">Apartado 4 usuarios no conectados</h2>
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%204%20pregunta.png)
 
@@ -446,23 +445,21 @@ cat "usuariosCreados-$fecha.tmp"
 
 <br>
 
-<h2>Muestreo del archivo temporal</h2>
+<h2 color="red" align="rigth">Muestreo del archivo temporal</h2>
 
 <br>
 
 ![Muestra del archivo temporal](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Muestreo%20del%20archivo%20temporal.png)
 
-<br>
 
-<h2>Introducción de comandos y variables</h2>
+<h2 color="red" align="rigth">Introducción de comandos y variables</h2>
 
 <br>
 
 ![Introducción del comando y variables](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Introduccion%20del%20comando%20y%20variables.png)
 
-<br>
 
-<h2>Cambio de contraseñas</h2>
+<h2 color="red" align="rigth">Cambio de contraseñas</h2>
 
 <br>
 
