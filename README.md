@@ -46,7 +46,47 @@
 
 <p>Escribir aquí la explicacion del script</p>
 
-![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Script%20.png)
+````
+!/bin/bash
+ Author: Horacio Gomez y Alejandro bayo
+ Version: 1.0
+ Fecha: 15-05-2024
+ Descripcion: Este script realiza -
+Parametros/Variables
+fecha=$(date +"%Y-%m-%d %H:%M")
+#Funciones
+comprobarRoot ()
+{
+    if [ "$(id -u)" != "0" ]
+    then
+   	 echo "Este script solo puede ser ejecutado por el root"
+   	 exit
+    fi
+}
+comprobarapache() {
+	while true; do
+
+    	if systemctl is-active --quiet apache2;
+    	then
+        	echo "El servicio Apache está activo."
+    	else
+        	echo "El servicio Apache está parado."
+        	reiniciar_apache
+    	fi
+    	sleep 60
+	done
+}
+reiniciarapache() {
+	echo "Error-Apache: $fecha" >> /root/ApacheError.tmp
+	systemctl restart apache2
+}
+#Bloque principal
+clear
+comprobarRoot
+comprobar_apache &
+
+````
+
 
 </details>
 
@@ -58,7 +98,7 @@
 > Aquí ponemos los problemas.
 <br>
 
-![Tarea programada](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/TareaProgramada.png)
+![Tarea programada](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/TareaProgramada.png  2  )
 
 <br>
 <br>
@@ -66,7 +106,7 @@
 
 <h2>Reactivación del apache</h2>
 
-![Reactivamos el apache](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Reactivacion%20de%20apache.png)
+![Reactivamos el apache](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Reactivacion%20de%20apache.png  3  )
 
 <br>
 <br>
@@ -74,7 +114,7 @@
 
 <h2>Archivo creado</h2>
 
-![Creamos el archivo](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Archivo%20creado.png)
+![Creamos el archivo](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Archivo%20creado.png  5  )
 
 <br>
 <br>
@@ -82,7 +122,7 @@
 
 <h2>Activamos el apache</h2>
 
-![Activamos el apache](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apache%20running.png)
+![Activamos el apache](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apache%20running.png  6  )
 
 <br>
 <br>
@@ -90,7 +130,7 @@
 
 <h2>Apache parado</h2>
 
-![Paramos el apache](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apache%20parado.png)
+![Paramos el apache](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apache%20parado.png  7  )
 
 <br>
 <br>
@@ -136,15 +176,102 @@ minutos (1800 seg) sin actividad, se le cierra la sesión.<br>
 
 <br>
 
-<p>Escribir aquí la explicacion del script</p>
+````
+#!/bin/bash
+# Author: Horacio Gomez y Alejandro Bayo
+# Version: 1.0
+# Fecha: 14-05-2024
+# Descripcion: Este script realiza -
+#Parametros/Variables
+menu ()
+{
+    echo "*********************************************"
+    echo "Servidor de usuarios:"
+    echo "*********************************************"
+    echo "1.- Usuarios Bloqueados."
+    echo "2.- Bloquear un usuario."
+    echo "3.- Desbloquear usuario."
+    echo "4.- Cerrar sesión usuario."
+    echo "5.- Salir."
+    read -p "Pulse un número: " opcion
 
-<br>
+case $opcion in
+1)
+    UsuariosBloqueados
+    ;;
+2)
+    BloquearUsuario
+    ;;
+3)
+    DesbloquearUsuario
+    ;;
+4)
+    CerrarSesion
+    ;;
 
-![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Script%20parte%201.png)
+5)
+    exit
+    ;;
+*)
+    clear
+    echo "Tiene que ser del 1 al 5"
+    ;;
+esac
+}
 
-<br>
+comprobarRoot ()
+{
+    if [ "$(id -u)" != "0" ]
+    then
+   	 echo "Este script solo puede ser ejecutado por el root"
+   	 exit
+    fi
+}
 
-![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Script%20parte%202.png)
+UsuariosBloqueados() {
+	clear
+	echo "Usuarios Bloqueados:"
+	awk -F':' '$3 >=1000 && $3 < 2000 { system("passwd -S " $1) }' /etc/passwd | awk '$2 == "L" { print $1 }'
+}
+
+BloquearUsuario() {
+	clear
+	read -p "Introduce el nombre de usuario a bloquear: " usuario
+	passwd -l $usuario
+	clear
+	echo "Usuario $usuario bloqueado correctamente."
+}
+
+DesbloquearUsuario() {
+	clear
+	read -p "Introduce el nombre de usuario a desbloquear: " usuario
+	passwd -u $usuario
+	clear
+	echo "Usuario $usuario desbloqueado correctamente."
+}
+
+CerrarSesion() {
+	clear
+	read -p "Introduce el nombre de usuario para cerrar sesión: " usuario
+	clear
+	if who | grep -qw "$usuario"; then
+    	pkill -KILL -u "$usuario"
+    	echo "La sesión de $usuario ha sido cerrada."
+	else
+    	echo "El usuario $usuario no tiene una sesión activa."
+	fi
+}
+
+#Bloque principal
+clear
+comprobarRoot
+while true
+do
+    menu
+done
+
+````
+
 
 <br>
 
@@ -158,33 +285,33 @@ minutos (1800 seg) sin actividad, se le cierra la sesión.<br>
 
 <h2>a</h2>
 
-![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%201%20sin%20bloqueados.png)
+![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%201%20sin%20bloqueados.png  1  )
 
 
 <h2>a</h2>
 
-![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%202%20pregunta.png)
+![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%202%20pregunta.png  2  )
 
 <h2>a</h2>
 
-![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%202%20ya%20bloqueado.png)
+![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%202%20ya%20bloqueado.png  3  )
 
 <h2>a</h2>
 
-![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%203%20pregunta.png)
+![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%203%20pregunta.png  4  )
 
 <h2>a</h2>
 
-![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%203%20ya%20desbloqueado.png)
+![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%203%20ya%20desbloqueado.png  5  )
 
 <h2>a</h2>
 
-![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%204%20usuario%20no%20conectado.png)
+![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%204%20usuario%20no%20conectado.png  6  )
 
 
 <h2>a</h2>
 
-![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%204%20pregunta.png)
+![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%204%20pregunta.png  7  )
 
 <hr>
 
@@ -226,6 +353,8 @@ BorrarUsuarios → Borra de forma masiva usuarios almacenados en el fichero
 
 </details>
 
+<br>
+
 > [!CAUTION]
 > Aquí ponemos los problemas.
 <br>
@@ -262,7 +391,44 @@ la ejecución del scrip
 
 <br>
 
-<p>Escribir aquí la explicacion del script</p>
+```
+!/bin/bash
+ Author: Horacio Gomez y Alejandro Bayo
+ Version: 1.0
+ Fecha: 18-05-2024
+ Descripcion: Este script realiza -
+Parametros/Variables
+nombre_usuario_generico=$1
+numero_usuarios=$2
+fecha=$(date +"%Y-%m-%d %H:%M")
+#Funciones
+comprobarRoot ()
+{
+    if [ "$(id -u)" != "0" ]
+    then
+   	 echo "Este script solo puede ser ejecutado por el root"
+   	 exit
+    fi
+}
+#Bloque principal
+clear
+comprobarRoot
+if [ $# -ne 2 ]; then
+  echo "Tienes que meter dos parametros el Primero:nombre_usuario_genérico y el segundo:número_de_usuarios"
+  exit
+fi
+
+for i in $(seq 1 1 $numero_usuarios)
+    do
+      nombre_usuario="$nombre_usuario_generico$i"
+      password="$nombre_usuario"
+	 sudo useradd -m -p $(echo -n "$password" | openssl passwd -1 -stdin) "$nombre_usuario"
+    sudo chage -d 0 "$nombre_usuario"
+
+    echo "$nombre_usuario:$password" >> usuariosCreados-$fecha.tmp
+    done
+cat "usuariosCreados-$fecha.tmp"
+````
 
 </details>
 
