@@ -33,6 +33,10 @@ que se inicie, transcurrido cinco minutos.
 
 <br>
 
+> [!CAUTION]
+> Aquí ponemos los problemas.
+<br>
+
 ![Tarea programada](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/TareaProgramada.png)
 
 <br>
