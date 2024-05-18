@@ -109,6 +109,8 @@ CerrarSesion → Nos pregunta el nombre de un usuario, y si el usuario lleva má
 minutos (1800 seg) sin actividad, se le cierra la sesión.<br>
 </h3>
 
+<br>
+
 > [!CAUTION]
 > Aquí ponemos los problemas.
 <br>
