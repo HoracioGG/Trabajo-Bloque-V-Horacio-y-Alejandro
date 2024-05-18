@@ -1,7 +1,6 @@
 # Trabajo Bloque V Horacio y Alejandro
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/script-en-diferentes-lenguajes.jpg)
-
 <br>
 
 <h1>Índice</h1>
@@ -139,6 +138,14 @@ minutos (1800 seg) sin actividad, se le cierra la sesión.<br>
 <h2>a</h2>
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%204%20usuario%20no%20conectado.png)
+
+<h2>a</h2>
+
+![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Script%20parte%201.png)
+
+<h2>a</h2>
+
+![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Script%20parte%202.png)
 
 <hr>
 
