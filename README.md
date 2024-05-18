@@ -170,7 +170,7 @@ minutos (1800 seg) sin actividad, se le cierra la sesión.<br>
 
 <details>
 
-<summary>Enunciado del ejercicio 3>/summary>
+<summary>Enunciado del ejercicio 3</summary>
 
 ### Ejercicio 3
 
