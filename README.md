@@ -1,6 +1,6 @@
 # Trabajo-Bloque-V-Horacio-y-Alejandro
 
-[![Tarea Programada](https://i.postimg.cc/05mCcj8Z/Tarea-Programada.png)
+[![Tarea Programada](https://Tarea-Programada.png)
 
 <p>Aquí vemos la tarea programada</p>
 
