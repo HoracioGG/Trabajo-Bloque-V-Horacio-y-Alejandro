@@ -97,7 +97,7 @@ comprobar_apache &
 
 <br>
 
-<h2 color="red" align="rigth">Tarea Programada</h2>
+<h2 align="rigth">Tarea Programada</h2>
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/TareaProgramada.png)
 
