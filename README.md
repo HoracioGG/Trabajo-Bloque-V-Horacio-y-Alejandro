@@ -44,7 +44,7 @@
 
 <summary>Explicación del script</summary>
 
-<p>Escribir aquí la explicacion del script</p>
+<br>
 
 ````
 !/bin/bash
