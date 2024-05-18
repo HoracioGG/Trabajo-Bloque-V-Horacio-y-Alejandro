@@ -92,22 +92,20 @@ comprobar_apache &
 
 <br>
 
-
-
 > [!CAUTION]
 > Aquí ponemos los problemas.
 
 <br>
 
-![Tarea programada](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/TareaProgramada.png)
+![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/TareaProgramada.png)
 
 <br>
 <br>
-<br>
+<br> 
 
 <h2>Reactivación del apache</h2>
 
-![Reactivamos el apache](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Reactivacion%20de%20apache.png)
+![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Reactivacion%20de%20apache.png)
 
 <br>
 <br>
@@ -115,7 +113,7 @@ comprobar_apache &
 
 <h2>Archivo creado</h2>
 
-![Creamos el archivo](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Archivo%20creado.png)
+![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Archivo%20creado.png)
 
 <br>
 <br>
@@ -123,7 +121,7 @@ comprobar_apache &
 
 <h2>Activamos el apache</h2>
 
-![Activamos el apache](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apache%20running.png)
+![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apache%20running.png)
 
 <br>
 <br>
@@ -131,7 +129,7 @@ comprobar_apache &
 
 <h2>Apache parado</h2>
 
-![Paramos el apache](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apache%20parado.png)
+![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apache%20parado.png)
 
 <br>
 <br>
