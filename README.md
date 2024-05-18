@@ -109,6 +109,9 @@ CerrarSesion → Nos pregunta el nombre de un usuario, y si el usuario lleva má
 minutos (1800 seg) sin actividad, se le cierra la sesión.<br>
 </h3>
 
+> [!CAUTION]
+> Aquí ponemos los problemas.
+<br>
 
 <h2>a</h2>
 
@@ -156,6 +159,9 @@ Además, queremos que esas cuentas queden inactivas el 30 de junio de 2024.<br>
 BorrarUsuarios → Borra de forma masiva usuarios almacenados en el fichero
 /root/usuarios.csv.</h3><br>
 
+> [!CAUTION]
+> Aquí ponemos los problemas.
+<br>
 
 <hr>
 
@@ -174,6 +180,10 @@ creados y la contraseña asignado, separados por “:”.<br>
 la ejecución del scrip
 </h3>
 
+> [!CAUTION]
+> Aquí ponemos los problemas.
+<br>
+
 <hr>
 
 <h2>Ejercicio 5</h2>
@@ -186,7 +196,9 @@ Realiza un script llamado cuotasUsuarios.sh, que nos copie la cuota del usuario1
 los usuarios cuyo uid >1000 y uid<2000.
 </h3>
 
-
+> [!CAUTION]
+> Aquí ponemos los problemas.
+<br>
 
 
 
