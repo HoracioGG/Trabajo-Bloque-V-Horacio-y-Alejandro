@@ -38,6 +38,17 @@
 
 <br>
 
+<details>
+
+<summary>Explicaión del script</summary>
+
+
+Explicacion del script
+
+</details>
+
+<br>
+
 > [!CAUTION]
 > Aquí ponemos los problemas.
 <br>
@@ -120,6 +131,15 @@ minutos (1800 seg) sin actividad, se le cierra la sesión.<br>
 
 </details>
 
+<br>
+
+<details>
+
+<summary>Explicaión del script</summary>
+
+Explicacion del script
+
+</details>
 
 <br>
 
@@ -192,6 +212,16 @@ BorrarUsuarios → Borra de forma masiva usuarios almacenados en el fichero
 
 </details>
 
+<br>
+
+<details>
+
+<summary>Explicaión del script</summary>
+
+Explicacion del script
+
+</details>
+
 > [!CAUTION]
 > Aquí ponemos los problemas.
 <br>
@@ -222,6 +252,16 @@ la ejecución del scrip
 
 <br>
 
+<details>
+
+<summary>Explicaión del script</summary>
+
+Explicacion del script
+
+</details>
+
+<br>
+
 > [!CAUTION]
 > Aquí ponemos los problemas.
 <br>
@@ -241,6 +281,16 @@ Al usuario1, se le ha establecido una cuota de disco: 40k y 100K (soft y hard
 respectivamente).<br>
 Realiza un script llamado cuotasUsuarios.sh, que nos copie la cuota del usuario1 a todos
 los usuarios cuyo uid >1000 y uid<2000.
+
+</details>
+
+<br>
+
+<details>
+
+<summary>Explicaión del script</summary>
+
+Explicacion del script
 
 </details>
 
