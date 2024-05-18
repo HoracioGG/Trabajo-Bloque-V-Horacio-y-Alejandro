@@ -437,7 +437,7 @@ cat "usuariosCreados-$fecha.tmp"
 > Aquí ponemos los problemas.
 <br>
 
-<h2>Usuarios creados comando passwd</h2>
+<h2 align="right">Usuarios creados comando passwd</h2>
 
 <br>
 
