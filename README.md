@@ -40,10 +40,11 @@
 
 <details>
 
+<br>
+
 <summary>Explicación del script</summary>
 
-
-Explicacion del script
+![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Script%20.png)
 
 </details>
 
@@ -56,14 +57,6 @@ Explicacion del script
 <br>
 
 ![Tarea programada](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/TareaProgramada.png)
-
-<br>
-<br>
-<br>
-
-<h2>Script</h2>
-
-![Script](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Script%20.png)
 
 <br>
 <br>
