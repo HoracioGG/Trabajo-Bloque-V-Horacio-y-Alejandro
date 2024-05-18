@@ -272,7 +272,6 @@ done
 
 ````
 
-
 <br>
 
 </details>
@@ -314,6 +313,8 @@ done
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%204%20pregunta.png  7  )
 
 <hr>
+
+<br>
 
 <h2 align="center">Ejercicio 3</h2>
 
@@ -360,6 +361,8 @@ BorrarUsuarios → Borra de forma masiva usuarios almacenados en el fichero
 <br>
 
 <hr>
+
+<br>
 
 <h2 align="center">Ejercicio 4</h2>
 
@@ -441,6 +444,8 @@ cat "usuariosCreados-$fecha.tmp"
 ![]()
 
 <hr>
+
+<br>
 
 <h2 align="center">Ejercicio 5</h2>
 
