@@ -96,6 +96,7 @@ comprobar_apache &
 
 > [!CAUTION]
 > Aquí ponemos los problemas.
+
 <br>
 
 ![Tarea programada](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/TareaProgramada.png)
