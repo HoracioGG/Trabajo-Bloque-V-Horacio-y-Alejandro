@@ -419,29 +419,23 @@ cat "usuariosCreados-$fecha.tmp"
 
 <h2 align="right">Usuarios creados comando passwd</h2>
 
-<br>
 
 ![Usuarios creados](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Usuarios%20creados%20comando%20passwd.png)
 
-<br>
 
 <h2 align="right">Muestreo del archivo temporal</h2>
 
-<br>
 
 ![Muestra del archivo temporal](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Muestreo%20del%20archivo%20temporal.png)
 
 
 <h2 align="right">Introducción de comandos y variables</h2>
 
-<br>
 
 ![Introducción del comando y variables](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Introduccion%20del%20comando%20y%20variables.png)
 
 
 <h2 align="right">Cambio de contraseñas</h2>
-
-<br>
 
 ![Cambio de contraseñas](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Cambio%20de%20la%20contraseña.png)
 
