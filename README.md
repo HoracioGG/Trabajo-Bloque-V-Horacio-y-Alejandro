@@ -101,41 +101,21 @@ comprobar_apache &
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/TareaProgramada.png)
 
-<br>
-<br>
-<br> 
-
 <h2 align="right">Reactivación del apache</h2>
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Reactivacion%20de%20apache.png)
-
-<br>
-<br>
-<br>
 
 <h2 align="right">Archivo creado</h2>
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Archivo%20creado.png)
 
-<br>
-<br>
-<br>
-
 <h2 align="right">Activamos el apache</h2>
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apache%20running.png)
 
-<br>
-<br>
-<br>
-
 <h2 align="right">Apache pausado</h2>
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apache%20parado.png)
-
-<br>
-<br>
-<br>
 
 <hr>
 
