@@ -132,6 +132,66 @@ minutos (1800 seg) sin actividad, se le cierra la sesión.<br>
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%204%20usuario%20no%20conectado.png)
 
 
+<hr>
+
+<h2>Ejercicio 3</h2>
+
+<h3>Realiza un script llamado crearBorrarUsuarios.sh, que nos muestre un menú: <br>
+1.- Crear Usuarios.<br>
+2.- Borrar Usuarios.<br>
+3.- Salir<br>
+CrearUsuarios → Crea de forma masiva usuarios almacenados en el fichero
+/root/usuarios.csv<br>
+Los campos son los siguientes:<br>
+- El campo 1 representa el nombre de usuario.<br>
+- El campo 2 representa la contraseña.<br>
+- El campo 3 representa el nombre.<br>
+- El campo 4 representa su primer apellido.<br>
+- El campo 5 representa su correo electrónico.<br>
+Además, queremos que esas cuentas queden inactivas el 30 de junio de 2024.<br>
+BorrarUsuarios → Borra de forma masiva usuarios almacenados en el fichero
+/root/usuarios.csv.</h3><br>
+
+
+<hr>
+
+<h2>Ejercicio 4</h2>
+
+<h3>Crea en un script llamado crearUsuarios.sh que permita crear usuarios de forma
+automática.<br> Indicaciones:<br>
+1.- Al script se le pasa dos parámetros:<br>
+a) El primer parámetro representa el nombre de un usuario genérico.<br>
+b) El segundo parámetro representa el número de usuarios que quiere crearse.<br>
+2.- A cada usuario se le asigna la contraseña que coincida con el nombre de usuario.<br>
+3.- Al usuario se le obliga a cambiar de contraseña, cuando se loguee.<br>
+4.- Se crea un archivo: usuariosCreados-FechaActual.tmp con el nombre de los usuarios
+creados y la contraseña asignado, separados por “:”.<br>
+5.- El archivo usuariosCreados-FechaActual.tmp tiene que ser mostrado en pantalla tras
+la ejecución del scrip
+</h3>
+
+<hr>
+
+<h2>Ejercicio 5</h2>
+
+<h3>
+Partimos de que tenemos varios usuarios: usuario1, usuario2, usuario3.<br>
+Al usuario1, se le ha establecido una cuota de disco: 40k y 100K (soft y hard
+respectivamente).<br>
+Realiza un script llamado cuotasUsuarios.sh, que nos copie la cuota del usuario1 a todos
+los usuarios cuyo uid >1000 y uid<2000.
+</h3>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
