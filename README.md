@@ -99,8 +99,6 @@ comprobar_apache &
 
 <h3>Tarea Programada</h3>
 
-<br>
-
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/TareaProgramada.png)
 
 <br>
@@ -281,33 +279,33 @@ done
 > Aquí ponemos los problemas.
 <br>
 
-<h2>a</h2>
+<h2>Apartado 1 sin bloqueados</h2>
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%201%20sin%20bloqueados.png)
 
 
-<h2>a</h2>
+<h2>Apartado 2 pregunta</h2>
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%202%20pregunta.png)
 
-<h2>a</h2>
+<h2>Apartado 2 ya bloqueado</h2>
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%202%20ya%20bloqueado.png)
 
-<h2>a</h2>
+<h2>Apartado 3 pregunta</h2>
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%203%20pregunta.png)
 
-<h2>a</h2>
+<h2>Apartado 3 ya deslboqueado</h2>
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%203%20ya%20desbloqueado.png)
 
-<h2>a</h2>
+<h2>Apartado 4 pregunta</h2>
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%204%20usuario%20no%20conectado.png)
 
 
-<h2>a</h2>
+<h2>Apartado 4 usuarios nio conectados</h2>
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%204%20pregunta.png)
 
