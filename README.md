@@ -2,6 +2,8 @@
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/b09273d7dd331b25a497fad692a097ce.gif)
 
+<br>
+
 <h1>Índice</h1>
 <ul>
   <li>Ejercicio 1</li>
@@ -10,6 +12,8 @@
   <li>Ejercicio 4</li>
   <li>Ejercicio 5</li>
 </ul>
+
+<br>
 
 <h1>Ejercicio 1</h1>
 
@@ -82,6 +86,24 @@ que se inicie, transcurrido cinco minutos.
 <br>
 
 <h1>Ejercicio 2</h1>
+
+<br>
+
+<h3>
+  Realiza un script llamado usuariosBloqueados.sh, que nos muestre un menú:<br>
+1.- Usuarios Bloqueados.<br>
+2.- Bloquear un usuario.<br>
+3.- Desbloquear usuario.<br>
+4.- Cerrar sesión usuario<br>
+5.- Salir<br>
+Cada opción del menú corresponde con una función.<br>
+UsuariosBloqueados → nos muestra en pantalla los usuarios (uid>1000 y <2000) que
+tengan la cuenta bloqueada.<br>
+BloquearUsuario → Nos pregunta el nombre de un usuario y lo bloqueamos.<br>
+DesbloquearUsuario → Nos pregunta el nombre de un usuario y lo desbloqueamos.<br>
+CerrarSesion → Nos pregunta el nombre de un usuario, y si el usuario lleva más de 30
+minutos (1800 seg) sin actividad, se le cierra la sesión.<br>
+</h3>
 
 
 
