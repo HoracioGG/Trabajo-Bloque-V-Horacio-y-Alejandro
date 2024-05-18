@@ -180,6 +180,7 @@ creados y la contraseña asignado, separados por “:”.<br>
 5.- El archivo usuariosCreados-FechaActual.tmp tiene que ser mostrado en pantalla tras
 la ejecución del scrip
 </h3>
+<br>
 
 > [!CAUTION]
 > Aquí ponemos los problemas.
@@ -196,6 +197,7 @@ respectivamente).<br>
 Realiza un script llamado cuotasUsuarios.sh, que nos copie la cuota del usuario1 a todos
 los usuarios cuyo uid >1000 y uid<2000.
 </h3>
+<br>
 
 > [!CAUTION]
 > Aquí ponemos los problemas.
