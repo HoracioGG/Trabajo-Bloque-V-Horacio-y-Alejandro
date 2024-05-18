@@ -345,7 +345,7 @@ BorrarUsuarios → Borra de forma masiva usuarios almacenados en el fichero
 
 <details>
 
-<summary>Explicaicón del script</summary>
+<summary>Script</summary>
 
 <br>
 
@@ -387,7 +387,7 @@ la ejecución del scrip
 
 <details>
 
-<summary>Explicación del script</summary>
+<summary>Script</summary>
 
 <br>
 
@@ -460,7 +460,7 @@ los usuarios cuyo uid >1000 y uid<2000.
 
 <details>
 
-<summary>Explicación del script</summary>
+<summary>Script</summary>
 
 <br>
 
