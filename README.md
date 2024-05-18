@@ -138,6 +138,16 @@ minutos (1800 seg) sin actividad, se le cierra la sesión.<br>
 
 <p>Escribir aquí la explicacion del script</p>
 
+<br>
+
+![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Script%20parte%201.png)
+
+<br>
+
+![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Script%20parte%202.png)
+
+<br>
+
 </details>
 
 <br>
@@ -171,13 +181,6 @@ minutos (1800 seg) sin actividad, se le cierra la sesión.<br>
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%204%20usuario%20no%20conectado.png)
 
-<h2>a</h2>
-
-![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Script%20parte%201.png)
-
-<h2>a</h2>
-
-![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Script%20parte%202.png)
 
 <h2>a</h2>
 
