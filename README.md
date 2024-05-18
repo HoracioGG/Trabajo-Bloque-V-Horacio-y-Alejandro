@@ -98,8 +98,13 @@
 
 <br>
 
-<h3>
-  Realiza un script llamado usuariosBloqueados.sh, que nos muestre un menú:<br>
+<details>
+
+<summary>Enunciado del ejercicio 2</summary>
+
+### Ejercicio 2
+
+Realiza un script llamado usuariosBloqueados.sh, que nos muestre un menú:<br>
 1.- Usuarios Bloqueados.<br>
 2.- Bloquear un usuario.<br>
 3.- Desbloquear usuario.<br>
@@ -112,7 +117,9 @@ BloquearUsuario → Nos pregunta el nombre de un usuario y lo bloqueamos.<br>
 DesbloquearUsuario → Nos pregunta el nombre de un usuario y lo desbloqueamos.<br>
 CerrarSesion → Nos pregunta el nombre de un usuario, y si el usuario lleva más de 30
 minutos (1800 seg) sin actividad, se le cierra la sesión.<br>
-</h3>
+
+</details>
+
 
 <br>
 
@@ -161,7 +168,13 @@ minutos (1800 seg) sin actividad, se le cierra la sesión.<br>
 
 <h2>Ejercicio 3</h2>
 
-<h3>Realiza un script llamado crearBorrarUsuarios.sh, que nos muestre un menú: <br>
+<details>
+
+<summary>Enunciado del ejercicio 3>/summary>
+
+### Ejercicio 3
+
+Realiza un script llamado crearBorrarUsuarios.sh, que nos muestre un menú: <br>
 1.- Crear Usuarios.<br>
 2.- Borrar Usuarios.<br>
 3.- Salir<br>
@@ -175,7 +188,9 @@ Los campos son los siguientes:<br>
 - El campo 5 representa su correo electrónico.<br>
 Además, queremos que esas cuentas queden inactivas el 30 de junio de 2024.<br>
 BorrarUsuarios → Borra de forma masiva usuarios almacenados en el fichero
-/root/usuarios.csv.</h3><br>
+/root/usuarios.csv.
+
+</details>
 
 > [!CAUTION]
 > Aquí ponemos los problemas.
@@ -185,8 +200,13 @@ BorrarUsuarios → Borra de forma masiva usuarios almacenados en el fichero
 
 <h2>Ejercicio 4</h2>
 
+<details>
 
-<h3>Crea en un script llamado crearUsuarios.sh que permita crear usuarios de forma
+<summary>Enunciado del ejercicio 4</summary>
+
+### Ejercicio 4
+
+Crea en un script llamado crearUsuarios.sh que permita crear usuarios de forma
 automática.<br> Indicaciones:<br>
 1.- Al script se le pasa dos parámetros:<br>
 a) El primer parámetro representa el nombre de un usuario genérico.<br>
@@ -197,7 +217,9 @@ b) El segundo parámetro representa el número de usuarios que quiere crearse.<b
 creados y la contraseña asignado, separados por “:”.<br>
 5.- El archivo usuariosCreados-FechaActual.tmp tiene que ser mostrado en pantalla tras
 la ejecución del scrip
-</h3>
+
+</details>
+
 <br>
 
 > [!CAUTION]
@@ -208,13 +230,20 @@ la ejecución del scrip
 
 <h2>Ejercicio 5</h2>
 
-<h3>
+<details>
+
+<summary>Enunciadom ejercicio 5</summary>
+
+### Ejercicio 5
+
 Partimos de que tenemos varios usuarios: usuario1, usuario2, usuario3.<br>
 Al usuario1, se le ha establecido una cuota de disco: 40k y 100K (soft y hard
 respectivamente).<br>
 Realiza un script llamado cuotasUsuarios.sh, que nos copie la cuota del usuario1 a todos
 los usuarios cuyo uid >1000 y uid<2000.
-</h3>
+
+</details>
+
 <br>
 
 > [!CAUTION]
