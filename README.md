@@ -438,7 +438,15 @@ cat "usuariosCreados-$fecha.tmp"
 > Aquí ponemos los problemas.
 <br>
 
+<h2>Usuarios creados comando passwd</h2>
+
+<br>
+
 ![Usuarios creados](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Usuarios%20creados%20comando%20passwd.png)
+
+<br>
+
+<h2>Muestreo del archivo temporal</h2>
 
 <br>
 
@@ -446,7 +454,15 @@ cat "usuariosCreados-$fecha.tmp"
 
 <br>
 
-![Introducción del comaando y variables](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Introduccion%20del%20comando%20y%20variables.png)
+<h2>Introducción de comandos y variables</h2>
+
+<br>
+
+![Introducción del comando y variables](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Introduccion%20del%20comando%20y%20variables.png)
+
+<br>
+
+<h2>Cambio de contraseñas</h2>
 
 <br>
 
