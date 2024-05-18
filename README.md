@@ -1,6 +1,6 @@
-# Trabajo-Bloque-V-Horacio-y-Alejandro
+# Trabajo Bloque V Horacio y Alejandro
 
-![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/b09273d7dd331b25a497fad692a097ce.gif)
+![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/script-en-diferentes-lenguajes.jpg)
 
 <br>
 
