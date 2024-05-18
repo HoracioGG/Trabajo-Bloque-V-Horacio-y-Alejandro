@@ -296,7 +296,7 @@ done
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%203%20pregunta.png)
 
-<h2>Apartado 3 ya deslboqueado</h2>
+<h2>Apartado 3 ya desbloqueado</h2>
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%203%20ya%20desbloqueado.png)
 
@@ -305,7 +305,7 @@ done
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%204%20usuario%20no%20conectado.png)
 
 
-<h2>Apartado 4 usuarios nio conectados</h2>
+<h2>Apartado 4 usuarios no conectados</h2>
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%204%20pregunta.png)
 
