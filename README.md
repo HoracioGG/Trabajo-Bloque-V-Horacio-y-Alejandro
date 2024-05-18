@@ -172,7 +172,7 @@ minutos (1800 seg) sin actividad, se le cierra la sesión.<br>
 
 <details>
 
-<summary></summary>
+<summary>Script</summary>
 
 <br>
 
