@@ -172,7 +172,7 @@ minutos (1800 seg) sin actividad, se le cierra la sesión.<br>
 
 <details>
 
-<summary>Explicaicón del script</summary>
+<summary></summary>
 
 <br>
 
@@ -444,7 +444,7 @@ cat "usuariosCreados-$fecha.tmp"
 
 <details>
 
-<summary>Enunciadom ejercicio 5</summary>
+<summary>Enunciado ejercicio 5</summary>
 
 ### Ejercicio 5
 
