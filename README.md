@@ -42,7 +42,7 @@
 
 <br>
 
-<summary>Explicación del script</summary>
+<summary>Script</summary>
 
 <br>
 
