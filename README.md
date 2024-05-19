@@ -746,7 +746,7 @@ los usuarios cuyo uid >1000 y uid<2000.
 <br>
 <br>
 
-<p></p>
+<p>Las conclusiones finales que sacamos de este trabajo son las siguientes y esque el mundo del script en bash se puede complicar mucho mas de lo que hemos visto en clase, tambien el mundo de github ya que es una aplicacion que con este trabajo nos hemos dado cuenta que es muy usada en el mundillo de la programacion y con este trabajo hemos aprendido a manejarla aunque sea un minimo pero suficiente para poder manejarnos minimamente, el planteamiento del trabajado esta muy bien adaptado a nuestro nivel lo que nos a ayudado a poder sacar adelante los ejercicios.</p>
 
 <br>
 <br>
