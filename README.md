@@ -504,7 +504,9 @@ menu
 > Los problemas de este ejercicio an sido el hecho de crear los usuarios con los datos del archico ya que tuvimos que extraer los datos del archivo en variables y despues insertarlos en el comando useradd eso a sido de lo mas dificil de este script.
 <br>
 
-![Menu](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Menu.png)
+<h2 align="right">Menu</h2>
+
+![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Menu.png)
 
 <br>
 
@@ -513,7 +515,9 @@ menu
 <br>
 <br>
 
-![Creación de usuarios](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Creacion%20de%20los%20usuarios.png)
+<h2 align="right">Creación de usuarios</h2>
+
+![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Creacion%20de%20los%20usuarios.png)
 
 <br>
 
@@ -522,7 +526,9 @@ menu
 <br>
 <br>
 
-![Borrado de usuarios](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Borrado%20de%20usuarios.png)
+<h2 align="right">Borrado de usuarios</h2>
+
+![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Borrado%20de%20usuarios.png)
 
 <br>
 
@@ -531,7 +537,9 @@ menu
 <br>
 <br>
 
-![Archivo](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Archivo.png)
+<h2 align="right">Archivo</h2>
+
+![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Archivo.png)
 
 <br>
 
