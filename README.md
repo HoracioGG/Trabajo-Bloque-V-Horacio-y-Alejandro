@@ -4,6 +4,7 @@
 <br>
 
 <h1>Índice</h1>
+<br>
 <ul>
   <li>Ejercicio 1</li>
   <li>Ejercicio 2</li>
