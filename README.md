@@ -710,7 +710,7 @@ los usuarios cuyo uid >1000 y uid<2000.
 <br>
 
 > [!CAUTION]
-> Aquí ponemos los problemas.
+> Este ejercicio se nos a complicado mucho el hecho de cambiarle las cuotas al usuario ya que hemos intentado por varias formas y no hemos podido y el hecho de empezar este script se nos a hecho imposible no sabiamos por donde empezar.
 <br>
 
 
