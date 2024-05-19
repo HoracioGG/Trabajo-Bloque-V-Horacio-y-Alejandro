@@ -504,6 +504,42 @@ menu
 > Los problemas de este ejercicio an sido el hecho de crear los usuarios con los datos del archico ya que tuvimos que extraer los datos del archivo en variables y despues insertarlos en el comando useradd eso a sido de lo mas dificil de este script.
 <br>
 
+![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Menu.png)
+
+<br>
+
+<p></p>
+
+<br>
+<br>
+
+![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Creacion%20de%20los%20usuarios.png)
+
+<br>
+
+<p></p>
+
+<br>
+<br>
+
+![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Borrado%20de%20usuarios.png)
+
+<br>
+
+<p></p>
+
+<br>
+<br>
+
+![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Archivo.png)
+
+<br>
+
+<p></p>
+
+<br>
+<br>
+
 <hr>
 
 <br>
