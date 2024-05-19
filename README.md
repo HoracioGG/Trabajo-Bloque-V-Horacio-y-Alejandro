@@ -1,4 +1,4 @@
-<h1 align="center" style="arial">Trabajo Bloque V Horacio y Alejandro</h1>
+<h1 align="center" style="">Trabajo Bloque V Horacio y Alejandro</h1>
 
 <img src="desktop-source-code-and-wallpaper-by-computer-language-with-coding-and-programming.jpg" alt="Descripción de la imagen" width="1100" height="700">
 <br>
@@ -16,6 +16,8 @@
 <br>
 
 <h1 align="center">Ejercicio 1<a name="1"></a></h1>
+
+<p align="center">asdashiu</p>
 
 <details>
 
