@@ -761,9 +761,3 @@ los usuarios cuyo uid >1000 y uid<2000.
 <br>
 
 <h1 align="center">:shipit: FIN :shipit:<a name="8"></a></h1>
-
-
-
-
-
-
