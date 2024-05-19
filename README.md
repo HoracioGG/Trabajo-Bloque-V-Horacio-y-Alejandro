@@ -324,7 +324,94 @@ BorrarUsuarios → Borra de forma masiva usuarios almacenados en el fichero
 
 <br>
 
-<p>Escribir aquí la explicacion del script</p>
+```
+#!/bin/bash
+# Author: Horacio Gomez y Alejandro Bayo
+# Version: 1.0
+# Fecha: 18-05-2024
+# Descripcion: Este script realiza -
+#Parametros/Variables
+
+#Funciones
+comprobarRoot ()
+{
+    if [ "$(id -u)" != "0" ]
+    then
+   	 echo "Este script solo puede ser ejecutado por el root"
+   	 exit
+    fi
+}
+menu ()
+{
+   while true;
+   do
+	echo "************************************"
+	echo "Menú: "
+	echo "************************************"
+	echo "1.- Crear Usuarios"
+	echo "2.- Borrar Usuarios"
+	echo "3.- Salir"
+	read -p "Pulse un número: " numero
+   
+	case $numero in
+    	1)
+        	clear
+        	crearUsuarios ;;
+    	2)
+        	clear
+        	borrarUsuarios ;;
+    	3)
+        	clear
+        	exit ;;
+    	*)
+        	echo "Tiene que ser un numero del 1 al 3"
+        	;;
+	esac
+   done
+}
+
+crearUsuarios()
+{
+	while read linea
+	do
+    	usuario=$(echo $linea | cut -d: -f1)
+    	contrasena=$(echo $linea | cut -d: -f2)
+    	nombre=$(echo $linea | cut -d: -f3)
+    	apellido=$(echo $linea | cut -d: -f4)
+    	correo=$(echo $linea | cut -d: -f5)
+   	 
+    	sudo useradd -m -s /bin/bash -p $contrasena -c "$nombre $apellido" -e "2025-05-18" $usuario > /dev/null 2>&1
+                	if [ $? -eq 0  ];
+                	then
+                    	echo "El usuario: $usuario ha sido creado."
+                	else
+                    	echo "El usuario: $usuario ya esta creado. "
+                	fi
+    	echo "$correo" > /home/$usuario/correo.txt
+	done </root/usuarios.csv
+}
+borrarUsuarios()
+{
+	while read linea
+	do
+    	usuario=$(echo $linea | cut -d: -f1)
+    	sudo userdel -r $usuario > /dev/null 2>&1
+    	if [ $? -eq 0  ];
+            	then
+            	echo "El usuario: $usuario ha sido eliminado "
+            	else
+            	echo "El usuario: $usuario no se ha podido eliminar"
+    	fi
+  	 
+	done</root/usuarios.csv
+}
+
+# Bloque principal
+clear
+comprobarRoot
+menu
+
+```
 
 </details>
 
