@@ -42,7 +42,7 @@
 
 <br>
 
-<summary> Script </summary>
+<summary> Archivo Script </summary>
 
 <br>
 
@@ -93,7 +93,7 @@ comprobar_apache &
 <br>
 
 > [!CAUTION]
-> En este ejercicio no hemos tenido casi ningun problema pero la parte con algo de dificultad a sido el hecho de que se active cada 1 minuto y la parte de que se ejecute cada 6 horas, todos los días. Y si el ordenador está apagado, se debe ejecutar la próxima vez que se inicie, transcurrido cinco minutos esta parte es la que nos resultado mas dificil.
+> En este ejercicio no hemos tenido casi ningun problema pero la parte con algo de dificultad a sido el hecho de que se active cada 1 minuto y la hemos solucionado con un sleep en el el while true y la parte de que se ejecute cada 6 horas, todos los días. Y si el ordenador está apagado, se debe ejecutar la próxima vez que se inicie, transcurrido cinco minutos esta parte es la que nos resultado mas dificil y la hemos solucionado con un cambio en el fichero crontab con las caracteristicas que nos pide y la ejecucion del script.
 
 <br>
 
@@ -149,7 +149,7 @@ minutos (1800 seg) sin actividad, se le cierra la sesión.<br>
 
 <details>
 
-<summary>Script</summary>
+<summary> Archivo Script </summary>
 
 <br>
 
@@ -256,7 +256,7 @@ done
 <br>
 
 > [!CAUTION]
-> Aquí ponemos los problemas.
+> Este script ya nos a resultado mas dificil que el anterior y las partes mas dificil an sido la de buscar los comandos para forzar las acciones sobre los usuarios y los hemos solucionado con el comando passwd con sus distintas opciones y el comadno pkill .
 <br>
 
 <h2 align="right">Apartado 1 sin bloqueados</h2>
@@ -322,7 +322,7 @@ BorrarUsuarios → Borra de forma masiva usuarios almacenados en el fichero
 
 <details>
 
-<summary>Script</summary>
+<summary> Archivo Script </summary>
 
 <br>
 
@@ -333,7 +333,7 @@ BorrarUsuarios → Borra de forma masiva usuarios almacenados en el fichero
 <br>
 
 > [!CAUTION]
-> Aquí ponemos los problemas.
+> Los problemas de este ejercicio an sido el hecho de crear los usuarios con los datos del archico ya que tuvimos que extraer los datos del archivo en variables y despues insertarlos en el comando useradd eso a sido de lo mas dificil de este script.
 <br>
 
 <hr>
@@ -366,7 +366,7 @@ la ejecución del scrip
 
 <details>
 
-<summary>Script</summary>
+<summary> Archivo Script </summary>
 
 <br>
 
@@ -414,7 +414,7 @@ cat "usuariosCreados-$fecha.tmp"
 <br>
 
 > [!CAUTION]
-> Aquí ponemos los problemas.
+> Los problemas que nos hemos encontrado en este script es el sumar un numero para cada vez que se creaba un usuarior pero lo hemos solucionado con el seq y despues otro problemas que nos hemos encontrado y uno de los mas dificiles de todo el boletin es el hecho de poner la contraseña de los usuarios ya que lo hemos intentado de muchas formas pero ninguna nos funcionaba hasta que buscamos y el problema que encontramos era que la contraseña necesitaba una encriptacion para poder activarse y lo hemos solucionado con el openssl passwd -1 -stdin que es un metodo de encriptacion de contraseña, despues otro problema a sido cuando hemos tenido que forzar que cuando inicies por primera vez ese usuario te fuerze a cambiar la contraseña en este caso hemos utilizaedo el chage -d 0 que lo que hace es establecer una fecha de expiracion de la contraseña y asi te fuerze a cambiarla la primera vez que inicies el usuario.
 <br>
 
 <h2 align="right">Usuarios creados comando passwd</h2>
@@ -463,7 +463,7 @@ los usuarios cuyo uid >1000 y uid<2000.
 
 <details>
 
-<summary>Script</summary>
+<summary> Archivo Script </summary>
 
 <br>
 
