@@ -736,12 +736,14 @@ los usuarios cuyo uid >1000 y uid<2000.
 
 <a href="">https://www.solab.ai/</a>
 
+<br>
+
+<p></p>
+
 <hr>
 
 <br>
 <br>
-
-<p></p>
 
 <h1 align="center">Conclusiones<a name="Conclusiones"></a></h1>
 
