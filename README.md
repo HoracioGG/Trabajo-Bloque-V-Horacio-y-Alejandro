@@ -649,8 +649,6 @@ cat "usuariosCreados-$fecha.tmp"
 
 <img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Muestreo%20del%20archivo%20temporal.png" alt="Descripción de la imagen" width="650" height="550">
 
-![Muestra del archivo temporal]()
-
 <br>
 
 <p></p>
