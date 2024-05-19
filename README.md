@@ -1,7 +1,7 @@
 # Trabajo Bloque V Horacio y Alejandro
 
-![](desktop-source-code-and-wallpaper-by-computer-language-with-coding-and-programming.jpg){:width="150px"}
-<img src="images/mi_imagen.png" alt="Descripción de la imagen" width="500" height="300">
+![](desktop-source-code-and-wallpaper-by-computer-language-with-coding-and-programming.jpg 1 )
+<img src="desktop-source-code-and-wallpaper-by-computer-language-with-coding-and-programming.jpg" alt="Descripción de la imagen" width="150" height="100">
 <br>
 
 **Índice**
