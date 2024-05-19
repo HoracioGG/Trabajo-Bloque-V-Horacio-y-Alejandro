@@ -8,10 +8,10 @@
 2. [Ejercicio 2](#Ejercicio2)
 3. [Ejercicio 3](#Ejercicio3)
 4. [Ejercicio 4](#Ejercicio4)
-5. [Ejercicio 5](#Ejercicio5)
+5. [Ejercicio 5](#ejercicio5)
 6. [Bibliografía](#Bibliografía)
 7. [Conclusiones](#Conclusiones)
-8. [:shipit: FÍN :shipit:](#Fin)
+8. [FÍN](#Fin)
 
 <br>
 
