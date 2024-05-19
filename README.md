@@ -96,10 +96,20 @@ comprobar_apache &
 
 <br>
 
-<h2 align="right">Tarea Programada</h2>
+<h2>Tarea Programada</h2>
 
 <img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/TareaProgramada.png" alt="Descripción de la imagen" width="650" height="550">
 
+<br>
+
+<p></p>
+
+<br>
+<br>
+
+<h2>Activamos el apache</h2>
+
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apache%20running.png" alt="Descripción de la imagen" width="650" height="550">
 
 <br>
 
@@ -108,20 +118,9 @@ comprobar_apache &
 <br>
 <br>
 
-<h2 align="right">Activamos el apache</h2>
+<h2>Apache pausado</h2>
 
-![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apache%20running.png)
-
-<br>
-
-<p></p>
-
-<br>
-<br>
-
-<h2 align="right">Apache pausado</h2>
-
-![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apache%20parado.png)
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apache%20parado.png" alt="Descripción de la imagen" width="650" height="550">
 
 <br>
 
@@ -130,9 +129,9 @@ comprobar_apache &
 <br>
 <br>
 
-<h2 align="right">Reactivación del apache</h2>
+<h2>Reactivación del apache</h2>
 
-![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Reactivacion%20de%20apache.png)
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Reactivacion%20de%20apache.png" alt="Descripción de la imagen" width="650" height="550">
 
 <br>
 
@@ -141,9 +140,9 @@ comprobar_apache &
 <br>
 <br>
 
-<h2 align="right">Archivo creado</h2>
+<h2>Archivo creado</h2>
 
-![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Archivo%20creado.png)
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Archivo%20creado.png" alt="Descripción de la imagen" width="650" height="550">
 
 <br>
 
@@ -296,20 +295,9 @@ done
 > Este script ya nos a resultado mas dificil que el anterior y las partes mas dificil an sido la de buscar los comandos para forzar las acciones sobre los usuarios y los hemos solucionado con el comando passwd con sus distintas opciones y el comadno pkill .
 <br>
 
-<h2 align="right">Apartado 1 sin bloqueados</h2>
+<h2>Apartado 1 sin bloqueados</h2>
 
-![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%201%20sin%20bloqueados.png)
-
-<br>
-
-<p></p>
-
-<br>
-<br>
-
-<h2 align="right">Apartado 2 pregunta</h2>
-
-![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%202%20pregunta.png)
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%201%20sin%20bloqueados.png" alt="Descripción de la imagen" width="650" height="550">
 
 <br>
 
@@ -318,20 +306,11 @@ done
 <br>
 <br>
 
-<h2 align="right">Apartado 2 ya bloqueado</h2>
+<h2>Apartado 2 pregunta</h2>
 
-![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%202%20ya%20bloqueado.png)
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%202%20pregunta.png" alt="Descripción de la imagen" width="650" height="550">
 
-<br>
-
-<p></p>
-
-<br>
-<br>
-
-<h2 align="right">Apartado 3 pregunta</h2>
-
-![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%203%20pregunta.png)
+![]()
 
 <br>
 
@@ -340,20 +319,9 @@ done
 <br>
 <br>
 
-<h2 align="right">Apartado 3 ya desbloqueado</h2>
+<h2>Apartado 2 ya bloqueado</h2>
 
-![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%203%20ya%20desbloqueado.png)
-
-<br>
-
-<p></p>
-
-<br>
-<br>
-
-<h2 align="right">Apartado 4 pregunta</h2>
-
-![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%204%20usuario%20no%20conectado.png)
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%202%20ya%20bloqueado.png" alt="Descripción de la imagen" width="650" height="550">
 
 <br>
 
@@ -362,9 +330,42 @@ done
 <br>
 <br>
 
-<h2 align="right">Apartado 4 usuarios no conectados</h2>
+<h2>Apartado 3 pregunta</h2>
 
-![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%204%20pregunta.png)
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%203%20pregunta.png" alt="Descripción de la imagen" width="650" height="550">
+
+<br>
+
+<p></p>
+
+<br>
+<br>
+
+<h2>Apartado 3 ya desbloqueado</h2>
+
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%203%20ya%20desbloqueado.png" alt="Descripción de la imagen" width="650" height="550">
+
+<br>
+
+<p></p>
+
+<br>
+<br>
+
+<h2>Apartado 4 pregunta</h2>
+
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%204%20usuario%20no%20conectado.png" alt="Descripción de la imagen" width="650" height="550">
+
+<br>
+
+<p></p>
+
+<br>
+<br>
+
+<h2>Apartado 4 usuarios no conectados</h2>
+
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%204%20pregunta.png" alt="Descripción de la imagen" width="650" height="550">
 
 <br>
 
@@ -508,20 +509,9 @@ menu
 > Los problemas de este ejercicio an sido el hecho de crear los usuarios con los datos del archico ya que tuvimos que extraer los datos del archivo en variables y despues insertarlos en el comando useradd eso a sido de lo mas dificil de este script.
 <br>
 
-<h2 align="right">Menu</h2>
+<h2>Menu</h2>
 
-![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Menu.png)
-
-<br>
-
-<p></p>
-
-<br>
-<br>
-
-<h2 align="right">Creación de usuarios</h2>
-
-![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Creacion%20de%20los%20usuarios.png)
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Menu.png" alt="Descripción de la imagen" width="650" height="550">
 
 <br>
 
@@ -530,9 +520,9 @@ menu
 <br>
 <br>
 
-<h2 align="right">Borrado de usuarios</h2>
+<h2>Creación de usuarios</h2>
 
-![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Borrado%20de%20usuarios.png)
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Creacion%20de%20los%20usuarios.png" alt="Descripción de la imagen" width="650" height="550">
 
 <br>
 
@@ -541,9 +531,20 @@ menu
 <br>
 <br>
 
-<h2 align="right">Archivo</h2>
+<h2>Borrado de usuarios</h2>
 
-![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Archivo.png)
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Borrado%20de%20usuarios.png" alt="Descripción de la imagen" width="650" height="550">
+
+<br>
+
+<p></p>
+
+<br>
+<br>
+
+<h2>Archivo</h2>
+
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Archivo.png" alt="Descripción de la imagen" width="650" height="550">
 
 <br>
 
@@ -633,20 +634,9 @@ cat "usuariosCreados-$fecha.tmp"
 > Los problemas que nos hemos encontrado en este script es el sumar un numero para cada vez que se creaba un usuarior pero lo hemos solucionado con el seq y despues otro problemas que nos hemos encontrado y uno de los mas dificiles de todo el boletin es el hecho de poner la contraseña de los usuarios ya que lo hemos intentado de muchas formas pero ninguna nos funcionaba hasta que buscamos y el problema que encontramos era que la contraseña necesitaba una encriptacion para poder activarse y lo hemos solucionado con el openssl passwd -1 -stdin que es un metodo de encriptacion de contraseña, despues otro problema a sido cuando hemos tenido que forzar que cuando inicies por primera vez ese usuario te fuerze a cambiar la contraseña en este caso hemos utilizaedo el chage -d 0 que lo que hace es establecer una fecha de expiracion de la contraseña y asi te fuerze a cambiarla la primera vez que inicies el usuario.
 <br>
 
-<h2 align="right">Introducción de comandos y variables</h2>
+<h2>Introducción de comandos y variables</h2>
 
-![Introducción del comando y variables](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Introduccion%20del%20comando%20y%20variables.png)
-
-<br>
-
-<p></p>
-
-<br>
-<br>
-
-<h2 align="right">Muestreo del archivo temporal</h2>
-
-![Muestra del archivo temporal](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Muestreo%20del%20archivo%20temporal.png)
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Introduccion%20del%20comando%20y%20variables.png" alt="Descripción de la imagen" width="650" height="550">
 
 <br>
 
@@ -655,9 +645,11 @@ cat "usuariosCreados-$fecha.tmp"
 <br>
 <br>
 
-<h2 align="right">Usuarios creados comando passwd</h2>
+<h2>Muestreo del archivo temporal</h2>
 
-![Usuarios creados](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Usuarios%20creados%20comando%20passwd.png)
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Muestreo%20del%20archivo%20temporal.pngg" alt="Descripción de la imagen" width="650" height="550">
+
+![Muestra del archivo temporal]()
 
 <br>
 
@@ -666,9 +658,20 @@ cat "usuariosCreados-$fecha.tmp"
 <br>
 <br>
 
-<h2 align="right">Cambio de contraseñas</h2>
+<h2>Usuarios creados comando passwd</h2>
 
-![Cambio de contraseñas](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Cambio%20de%20la%20contraseña.png)
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Usuarios%20creados%20comando%20passwd.pngg" alt="Descripción de la imagen" width="650" height="550">
+
+<br>
+
+<p></p>
+
+<br>
+<br>
+
+<h2>Cambio de contraseñas</h2>
+
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Cambio%20de%20la%20contraseña.png" alt="Descripción de la imagen" width="650" height="550">
 
 <br>
 
