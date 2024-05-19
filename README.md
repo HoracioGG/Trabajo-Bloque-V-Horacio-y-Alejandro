@@ -107,10 +107,6 @@ comprobar_apache &
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apache%20parado.png)
 
-<h2 align="right">Apache pausado</h2>
-
-![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apache%20parado.png)
-
 <h2 align="right">Reactivación del apache</h2>
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Reactivacion%20de%20apache.png)
@@ -266,7 +262,6 @@ done
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%201%20sin%20bloqueados.png)
 
-
 <h2 align="right">Apartado 2 pregunta</h2>
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%202%20pregunta.png)
@@ -420,23 +415,17 @@ cat "usuariosCreados-$fecha.tmp"
 > Los problemas que nos hemos encontrado en este script es el sumar un numero para cada vez que se creaba un usuarior pero lo hemos solucionado con el seq y despues otro problemas que nos hemos encontrado y uno de los mas dificiles de todo el boletin es el hecho de poner la contraseña de los usuarios ya que lo hemos intentado de muchas formas pero ninguna nos funcionaba hasta que buscamos y el problema que encontramos era que la contraseña necesitaba una encriptacion para poder activarse y lo hemos solucionado con el openssl passwd -1 -stdin que es un metodo de encriptacion de contraseña, despues otro problema a sido cuando hemos tenido que forzar que cuando inicies por primera vez ese usuario te fuerze a cambiar la contraseña en este caso hemos utilizaedo el chage -d 0 que lo que hace es establecer una fecha de expiracion de la contraseña y asi te fuerze a cambiarla la primera vez que inicies el usuario.
 <br>
 
-<h2 align="right">Usuarios creados comando passwd</h2>
-
-
-![Usuarios creados](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Usuarios%20creados%20comando%20passwd.png)
-
-
-<h2 align="right">Muestreo del archivo temporal</h2>
-
-
-![Muestra del archivo temporal](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Muestreo%20del%20archivo%20temporal.png)
-
-
 <h2 align="right">Introducción de comandos y variables</h2>
-
 
 ![Introducción del comando y variables](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Introduccion%20del%20comando%20y%20variables.png)
 
+<h2 align="right">Muestreo del archivo temporal</h2>
+
+![Muestra del archivo temporal](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Muestreo%20del%20archivo%20temporal.png)
+
+<h2 align="right">Usuarios creados comando passwd</h2>
+
+![Usuarios creados](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Usuarios%20creados%20comando%20passwd.png)
 
 <h2 align="right">Cambio de contraseñas</h2>
 
