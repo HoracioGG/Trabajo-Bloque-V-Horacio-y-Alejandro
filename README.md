@@ -680,7 +680,7 @@ cat "usuariosCreados-$fecha.tmp"
 
 <br>
 
-<h1 align="center">Ejercicio 5<a name="Ejercicio5"></a></h1>
+<h1 align="center">Ejercicio 5<a name="ejercicio 5"></a></h1>
 
 <details>
 
