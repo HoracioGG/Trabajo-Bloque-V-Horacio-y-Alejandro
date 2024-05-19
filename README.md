@@ -723,6 +723,22 @@ los usuarios cuyo uid >1000 y uid<2000.
 
 <h1 aling="center">Bibliografía</h1>
 
+<br>
+
+![Aquí poner el nombre de la pagina](Aquí pones la url de la pagina)
+
+<br>
+
+![]()
+
+<br>
+
+![]()
+
+<br>
+
+![]()
+
 <hr>
 
 <br>
@@ -730,9 +746,20 @@ los usuarios cuyo uid >1000 y uid<2000.
 
 <h1 aling="center">Conclusiones</h1>
 
+<br>
+<br>
 
+<p></p>
 
+<br>
+<br>
 
+<hr>
+
+<br>
+<br>
+
+<h1 aling="center">FIN :shipit::</h1>
 
 
 
