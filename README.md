@@ -720,25 +720,20 @@ los usuarios cuyo uid >1000 y uid<2000.
 
 <h1 align="center">Bibliografía<a name="Bibliografía"></a></h1>
 
-<br>
+<p>Hemos usado los boletines de scripts intermedios hechos en clase y tambien los que usamos para el examen.</p>
 
-<a href=""></a>
+<p>Tambien Hemos usado el temario del que disponemos en la moodle.</p>
 
-<br>
+<p>Esta es una pagina web en la que hemos encontrado ayuda para las opciones de algunos comandos y busqueda de otros ya que es un manual de los mismos.</p>
 
-<a href=""></a>
+<a href="">https://www.gnu.org/software/bash/manual/bash.html</a>
 
-<br>
-
-<a href=""></a>
-
-<br>
+<p>Esta es una ia muy completa que hemos encontrado la cual la hemos usado para resolver dudas que ya se nos hacian imposible sacar como la encriptacion de la contraseña del ejercicio 4 </p>
 
 <a href="">https://www.solab.ai/</a>
 
 <br>
 
-<p></p>
 
 <hr>
 
