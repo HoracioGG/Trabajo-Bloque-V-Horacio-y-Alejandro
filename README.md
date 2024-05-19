@@ -42,7 +42,7 @@
 
 <br>
 
-<summary>Script</summary>
+<summary> Script </summary>
 
 <br>
 
@@ -93,7 +93,7 @@ comprobar_apache &
 <br>
 
 > [!CAUTION]
-> Aquí ponemos los problemas.
+> En este ejercicio no hemos tenido casi ningun problema pero la parte con algo de dificultad a sido el hecho de que se active cada 1 minuto y la parte de que se ejecute cada 6 horas, todos los días. Y si el ordenador está apagado, se debe ejecutar la próxima vez que se inicie, transcurrido cinco minutos esta parte es la que nos resultado mas dificil.
 
 <br>
 
