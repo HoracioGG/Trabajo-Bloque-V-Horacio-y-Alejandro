@@ -736,8 +736,6 @@ los usuarios cuyo uid >1000 y uid<2000.
 
 <a href=""></a>
 
-<br
-
 <hr>
 
 <br>
