@@ -1,10 +1,11 @@
-<h1 align="center">Trabajo Bloque V Horacio y Alejandro<a name="titulo"></a></h1>
-
 <style>
 	.titulo {
     font-family: 'Times New Roman', Times, serif;
 }
 </style>
+
+
+<h1 align="center">Trabajo Bloque V Horacio y Alejandro<a name="titulo"></a></h1>
 
 <img src="desktop-source-code-and-wallpaper-by-computer-language-with-coding-and-programming.jpg" alt="Descripción de la imagen" width="1100" height="700">
 <br>
