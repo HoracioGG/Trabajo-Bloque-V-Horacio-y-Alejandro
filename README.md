@@ -712,11 +712,19 @@ los usuarios cuyo uid >1000 y uid<2000.
 <br>
 
 
+<hr>
+
+<br>
+
+<h1 aling="center">Bibliografía</h1>
 
 
 
+<hr>
 
+<br>
 
+<h1 aling="center">Conclusiones</h1>
 
 
 
