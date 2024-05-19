@@ -3,7 +3,7 @@
 <img src="desktop-source-code-and-wallpaper-by-computer-language-with-coding-and-programming.jpg" alt="Descripción de la imagen" width="1100" height="700">
 <br>
 
-**Índice**
+*Índice*
 1. [Ejercicio 1](#1)
 2. [Ejercicio 2](#2)
 3. [Ejercicio 3](#3)
