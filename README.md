@@ -100,6 +100,7 @@ comprobar_apache &
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/TareaProgramada.png)
 
 <br>
+<br>
 
 <p></p>
 
@@ -107,6 +108,7 @@ comprobar_apache &
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apache%20running.png)
 
+<br>
 <br>
 
 <p></p>
@@ -116,6 +118,7 @@ comprobar_apache &
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apache%20parado.png)
 
 <br>
+<br>
 
 <p></p>
 
@@ -124,6 +127,7 @@ comprobar_apache &
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Reactivacion%20de%20apache.png)
 
 <br>
+<br>
 
 <p></p>
 
@@ -131,6 +135,7 @@ comprobar_apache &
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Archivo%20creado.png)
 
+<br>
 <br>
 
 <p></p>
@@ -283,6 +288,7 @@ done
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%201%20sin%20bloqueados.png)
 
 <br>
+<br>
 
 <p></p>
 
@@ -290,6 +296,7 @@ done
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%202%20pregunta.png)
 
+<br>
 <br>
 
 <p></p>
@@ -299,6 +306,7 @@ done
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%202%20ya%20bloqueado.png)
 
 <br>
+<br>
 
 <p></p>
 
@@ -306,6 +314,7 @@ done
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%203%20pregunta.png)
 
+<br>
 <br>
 
 <p></p>
@@ -315,6 +324,7 @@ done
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%203%20ya%20desbloqueado.png)
 
 <br>
+<br>
 
 <p></p>
 
@@ -323,6 +333,7 @@ done
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%204%20usuario%20no%20conectado.png)
 
 <br>
+<br>
 
 <p></p>
 
@@ -330,6 +341,7 @@ done
 
 ![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%204%20pregunta.png)
 
+<br>
 <br>
 
 <p></p>
@@ -555,6 +567,7 @@ cat "usuariosCreados-$fecha.tmp"
 ![Introducción del comando y variables](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Introduccion%20del%20comando%20y%20variables.png)
 
 <br>
+<br>
 
 <p></p>
 
@@ -562,6 +575,7 @@ cat "usuariosCreados-$fecha.tmp"
 
 ![Muestra del archivo temporal](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Muestreo%20del%20archivo%20temporal.png)
 
+<br>
 <br>
 
 <p></p>
@@ -571,6 +585,7 @@ cat "usuariosCreados-$fecha.tmp"
 ![Usuarios creados](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Usuarios%20creados%20comando%20passwd.png)
 
 <br>
+<br>
 
 <p></p>
 
@@ -578,6 +593,7 @@ cat "usuariosCreados-$fecha.tmp"
 
 ![Cambio de contraseñas](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Cambio%20de%20la%20contraseña.png)
 
+<br>
 <br>
 
 <p></p>
