@@ -40,11 +40,9 @@
 
 <details>
 
-<br>
 
 <summary> Archivo Script </summary>
 
-<br>
 
 ````
 !/bin/bash
