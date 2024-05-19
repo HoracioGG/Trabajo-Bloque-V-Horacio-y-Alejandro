@@ -1,6 +1,6 @@
 # Trabajo Bloque V Horacio y Alejandro
 
-![](https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/script-en-diferentes-lenguajes.jpg)
+![](desktop-source-code-and-wallpaper-by-computer-language-with-coding-and-programming.jpg)
 <br>
 
 <h1>Índice</h1>
