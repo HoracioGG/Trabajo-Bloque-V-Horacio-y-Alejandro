@@ -647,7 +647,7 @@ cat "usuariosCreados-$fecha.tmp"
 
 <h2>Muestreo del archivo temporal</h2>
 
-<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Muestreo%20del%20archivo%20temporal.pngg" alt="Descripción de la imagen" width="650" height="550">
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Muestreo%20del%20archivo%20temporal.png" alt="Descripción de la imagen" width="650" height="550">
 
 ![Muestra del archivo temporal]()
 
@@ -660,7 +660,7 @@ cat "usuariosCreados-$fecha.tmp"
 
 <h2>Usuarios creados comando passwd</h2>
 
-<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Usuarios%20creados%20comando%20passwd.pngg" alt="Descripción de la imagen" width="650" height="550">
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Usuarios%20creados%20comando%20passwd.png" alt="Descripción de la imagen" width="650" height="550">
 
 <br>
 
