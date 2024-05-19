@@ -155,6 +155,8 @@ comprobar_apache &
 
 <hr>
 
+<br>
+
 <h1 align="center">Ejercicio 2</h1>
 
 <br>
