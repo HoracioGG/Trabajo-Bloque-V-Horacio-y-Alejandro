@@ -102,7 +102,7 @@ comprobar_apache &
 
 <br>
 
-<p></p>
+<p>Aqui tenemos el archivo que hara que se ejecute el script cada 6 horas todos los dias </p>
 
 <br>
 <br>
@@ -113,7 +113,7 @@ comprobar_apache &
 
 <br>
 
-<p></p>
+<p>Aqui tenemos el resultado que da el script cuando el servidor apache esta running o activo</p>
 
 <br>
 <br>
@@ -124,7 +124,7 @@ comprobar_apache &
 
 <br>
 
-<p></p>
+<p>Esto es lo que se nos muertra por pantalla cuando el script esta comprobando pero el servidor apache esta apagado y a la vez se a quedado un archivo de error que veremos a continuacion </p>
 
 <br>
 <br>
@@ -135,7 +135,7 @@ comprobar_apache &
 
 <br>
 
-<p></p>
+<p>Aqui podemos ver como el propio script reactiva el servidor apache una vez que estaba apagado</p>
 
 <br>
 <br>
@@ -146,7 +146,7 @@ comprobar_apache &
 
 <br>
 
-<p></p>
+<p>Este es el archivo que se nos crearia automaticamente el cual almacena un mensaje de la fecha en la que el servidor apache estuvo parado,con un cat vemos el interior del archivo</p>
 
 <br>
 <br>
@@ -295,13 +295,13 @@ done
 > Este script ya nos a resultado mas dificil que el anterior y las partes mas dificil an sido la de buscar los comandos para forzar las acciones sobre los usuarios y los hemos solucionado con el comando passwd con sus distintas opciones y el comadno pkill .
 <br>
 
-<h2>Apartado 1 sin bloqueados</h2>
+<h2>Apartado 1 sin bloqueados y vista del menu</h2>
 
 <img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%201%20sin%20bloqueados.png" alt="Descripción de la imagen" width="650" height="550">
 
 <br>
 
-<p></p>
+<p>Aqui podemos ver el menu y aparte lo que nos mostraria por pantalla al introducir el numero 1 y no tener ningun usuario bloqueado</p>
 
 <br>
 <br>
@@ -310,11 +310,9 @@ done
 
 <img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%202%20pregunta.png" alt="Descripción de la imagen" width="650" height="550">
 
-![]()
-
 <br>
 
-<p></p>
+<p>Esto es lo que se nos mostraria al introducir el numero 2 en el menu, nos pediria el usuario que queramos bloquear</p>
 
 <br>
 <br>
@@ -325,7 +323,7 @@ done
 
 <br>
 
-<p></p>
+<p>Una vez introducido el usuario que queremos bloquear nos saltara este mensaje</p>
 
 <br>
 <br>
@@ -336,7 +334,7 @@ done
 
 <br>
 
-<p></p>
+<p>Si en el menu se pulsa el 3, nos mostraria esto por pantalla y nos preguntaria que que usuario queremos desbloquear</p>
 
 <br>
 <br>
@@ -347,29 +345,28 @@ done
 
 <br>
 
-<p></p>
+<p>cuando en el apartado anterior le insertamos un usuario obtenemos este mensaje</p>
 
 <br>
 <br>
 
 <h2>Apartado 4 pregunta</h2>
 
-<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%204%20usuario%20no%20conectado.png" alt="Descripción de la imagen" width="650" height="550">
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%204%20pregunta.png" alt="Descripción de la imagen" width="650" height="550">
 
 <br>
 
-<p></p>
+<p>Si seleccionamos el apartado 4 del menu nos muestra esta pestaña en la cual tendremos que escribir el nombre de ususario que queremos cerrar sesion</p>
 
 <br>
 <br>
 
 <h2>Apartado 4 usuarios no conectados</h2>
 
-<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%204%20pregunta.png" alt="Descripción de la imagen" width="650" height="550">
-
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Apartado%204%20usuario%20no%20conectado.png" alt="Descripción de la imagen" width="650" height="550">
 <br>
 
-<p></p>
+<p>Cuando intentamos cerrar sesion de un usuario que no esta conectado nos muestra este mensaje</p>
 
 <br>
 <br>
