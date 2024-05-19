@@ -10,6 +10,8 @@
   <li>Ejercicio 3</li>
   <li>Ejercicio 4</li>
   <li>Ejercicio 5</li>
+  <li>Bibliografía</li>
+  <li>Conclusiones</li>
 </ul>
 
 <br>
@@ -718,10 +720,9 @@ los usuarios cuyo uid >1000 y uid<2000.
 
 <h1 aling="center">Bibliografía</h1>
 
-
-
 <hr>
 
+<br>
 <br>
 
 <h1 aling="center">Conclusiones</h1>
