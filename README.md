@@ -759,7 +759,7 @@ los usuarios cuyo uid >1000 y uid<2000.
 <br>
 <br>
 
-<h1 align="center">FIN :shipit:</h1>
+<h1 align="center">:shipit: FIN :shipit:</h1>
 
 
 
