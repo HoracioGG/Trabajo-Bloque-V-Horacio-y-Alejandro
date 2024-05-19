@@ -721,7 +721,7 @@ los usuarios cuyo uid >1000 y uid<2000.
 
 <br>
 
-<h1 aling="center">Bibliografía</h1>
+<h1 align="center">Bibliografía</h1>
 
 <br>
 
@@ -744,7 +744,7 @@ los usuarios cuyo uid >1000 y uid<2000.
 <br>
 <br>
 
-<h1 aling="center">Conclusiones</h1>
+<h1 align="center">Conclusiones</h1>
 
 <br>
 <br>
@@ -759,7 +759,7 @@ los usuarios cuyo uid >1000 y uid<2000.
 <br>
 <br>
 
-<h1 aling="center">FIN :shipit::</h1>
+<h1 align="center">FIN :shipit:</h1>
 
 
 
