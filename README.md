@@ -345,7 +345,7 @@ done
 
 <br>
 
-<p>cuando en el apartado anterior le insertamos un usuario obtenemos este mensaje</p>
+<p>Cuando en el apartado anterior le insertamos un usuario obtenemos este mensaje</p>
 
 <br>
 <br>
@@ -503,7 +503,7 @@ menu
 <br>
 
 > [!CAUTION]
-> Los problemas de este ejercicio an sido el hecho de crear los usuarios con los datos del archico ya que tuvimos que extraer los datos del archivo en variables y despues insertarlos en el comando useradd eso a sido de lo mas dificil de este script.
+> Los problemas de este ejercicio an sido el hecho de crear los usuarios con los datos del archico ya que tuvimos que extraer los datos del archivo en variables y despues insertarlos en el comando useradd eso a sido de lo mas dificil de este script, aparte hemos tenido un problema a la hora de mostrar los resultados de las creaciones y los borrados ya que no sabemos el porque tambien añadia al usuario principal.
 <br>
 
 <h2>Menu</h2>
@@ -512,7 +512,7 @@ menu
 
 <br>
 
-<p></p>
+<p>Aqui tenemos el menu que se nos pedia en el ejercicio</p>
 
 <br>
 <br>
@@ -523,7 +523,7 @@ menu
 
 <br>
 
-<p></p>
+<p>El script lee el archivo que previamente se nos a dado en el ejercicio y hemos creado en el root ,y nos crea los usuarios que le hemos indicado en el archivo</p>
 
 <br>
 <br>
@@ -534,7 +534,7 @@ menu
 
 <br>
 
-<p></p>
+<p>Aqui nos muestra el listado de usuarios borrados apartir del archivo que le hemos proporcionado</p>
 
 <br>
 <br>
@@ -545,7 +545,7 @@ menu
 
 <br>
 
-<p></p>
+<p>Aqui tenemos el archivo que hemos tenido que insertar en el root, mostrando su informacion respectiva</p>
 
 <br>
 <br>
@@ -637,7 +637,7 @@ cat "usuariosCreados-$fecha.tmp"
 
 <br>
 
-<p></p>
+<p>Aqui tenemos como debemos llamar al script ya que tenemos que colocar como primera variable el nombre que usuarn los usuarios y como segunda variable el numero de usuarios que vamos a quedar. en este caso sera Hora y 3 </p>
 
 <br>
 <br>
@@ -648,7 +648,7 @@ cat "usuariosCreados-$fecha.tmp"
 
 <br>
 
-<p></p>
+<p>Aqui nos muestra los usuarios creados con sus respectivas contraseñas </p>
 
 <br>
 <br>
@@ -659,7 +659,7 @@ cat "usuariosCreados-$fecha.tmp"
 
 <br>
 
-<p></p>
+<p>Aqui tenemos una verificacion de que los usuarios estan creados perfectamente</p>
 
 <br>
 <br>
@@ -670,7 +670,7 @@ cat "usuariosCreados-$fecha.tmp"
 
 <br>
 
-<p></p>
+<p>Aqui podemos ver que la primera vez que nos logueamos en los usuarios nos pide que se la cambiemos como nos pide en el ejercicio</p>
 
 <br>
 <br>
