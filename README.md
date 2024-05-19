@@ -729,15 +729,21 @@ los usuarios cuyo uid >1000 y uid<2000.
 
 <br>
 
-<a href="https://marvelsnap.pro">Snapi</a>
+<a href=""></a>
 
 <br>
 
-![]()
+<a href=""></a>
 
 <br>
 
-![]()
+<a href=""></a>
+
+<br>
+
+<a href=""></a>
+
+<br
 
 <hr>
 
