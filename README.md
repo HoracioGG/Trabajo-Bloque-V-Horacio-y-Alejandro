@@ -1,4 +1,11 @@
-<h1 align="center" font-family="Times New Roman">Trabajo Bloque V Horacio y Alejandro</h1>
+<h1 align="center">Trabajo Bloque V Horacio y Alejandro</h1>
+
+<style>
+	.times-font {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+</style>
 
 <img src="desktop-source-code-and-wallpaper-by-computer-language-with-coding-and-programming.jpg" alt="Descripción de la imagen" width="1100" height="700">
 <br>
