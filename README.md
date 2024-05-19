@@ -729,7 +729,7 @@ los usuarios cuyo uid >1000 y uid<2000.
 
 <br>
 
-![snapi](URL "https://marvelsnap.pro")
+![snapi]("https://marvelsnap.pro")
 
 <br>
 
