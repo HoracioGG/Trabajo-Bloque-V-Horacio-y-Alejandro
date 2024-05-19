@@ -1,6 +1,6 @@
 # Trabajo Bloque V Horacio y Alejandro
 
-<img src="desktop-source-code-and-wallpaper-by-computer-language-with-coding-and-programming.jpg" alt="Descripción de la imagen" width="1000" height="700">
+<img src="desktop-source-code-and-wallpaper-by-computer-language-with-coding-and-programming.jpg" alt="Descripción de la imagen" width="1100" height="700">
 <br>
 
 **Índice**
