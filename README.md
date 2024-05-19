@@ -1,6 +1,6 @@
 # Trabajo Bloque V Horacio y Alejandro
 
-![](desktop-source-code-and-wallpaper-by-computer-language-with-coding-and-programming.jpg)
+![](desktop-source-code-and-wallpaper-by-computer-language-with-coding-and-programming.jpg) | (pleca 100px)
 <br>
 
 **Índice**
