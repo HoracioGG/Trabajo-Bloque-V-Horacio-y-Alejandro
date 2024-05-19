@@ -722,10 +722,6 @@ los usuarios cuyo uid >1000 y uid<2000.
 
 <br>
 
-![Aquí poner el nombre de la pagina](Aquí pones la url de la pagina)
-
-<br>
-
 <a href=""></a>
 
 <br>
