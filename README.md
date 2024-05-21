@@ -745,7 +745,7 @@ los usuarios cuyo uid >1000 y uid<2000.
 <br>
 <br>
 
-<p>Las conclusiones finales que sacamos de este trabajo son las siguientes y esque el mundo del script en bash se puede complicar mucho mas de lo que hemos visto en clase, tambien el mundo de github ya que es una aplicacion que con este trabajo nos hemos dado cuenta que es muy usada en el mundillo de la programacion y con este trabajo hemos aprendido a manejarla aunque sea un minimo pero suficiente para poder manejarnos minimamente, el planteamiento del trabajado esta muy bien adaptado a nuestro nivel lo que nos a ayudado a poder sacar adelante los ejercicios.Tambien hemos comprobado que los scripts te ayudan muchisimo a la hora de hacer tareas normales en un ordendador.</p>
+<p>Las conclusiones finales que sacamos de este trabajo son las siguientes: el mundo del scripting en Bash se puede complicar mucho más de lo que hemos visto en clase. También el mundo de GitHub, ya que es una aplicación que, con este trabajo, nos hemos dado cuenta de que es muy usada en el mundillo de la programación. Con este trabajo, hemos aprendido a manejarla, aunque sea un mínimo, pero suficiente para poder manejarnos mínimamente. El planteamiento del trabajo está muy bien adaptado a nuestro nivel, lo que nos ha ayudado a poder sacar adelante los ejercicios. También hemos comprobado que los scripts te ayudan muchísimo a la hora de hacer tareas normales en un ordenador.</p>
 
 <br>
 <br>
