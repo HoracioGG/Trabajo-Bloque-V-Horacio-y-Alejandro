@@ -46,11 +46,11 @@
 
 
 ````
-!/bin/bash
- Author: Horacio Gomez y Alejandro bayo
- Version: 1.0
- Fecha: 15-05-2024
- Descripcion: Este script realiza -
+#!/bin/bash
+# Author: Horacio Gomez y Alejandro bayo
+# Version: 1.0
+# Fecha: 15-05-2024
+# Descripcion: Este script realiza -
 Parametros/Variables
 fecha=$(date +"%Y-%m-%d %H:%M")
 #Funciones
