@@ -585,12 +585,12 @@ la ejecución del scrip
 <br>
 
 ```
-!/bin/bash
- Author: Horacio Gomez y Alejandro Bayo
- Version: 1.0
- Fecha: 18-05-2024
- Descripcion: Este script realiza -
-Parametros/Variables
+#!/bin/bash
+# Author: Horacio Gomez y Alejandro Bayo
+# Version: 1.0
+# Fecha: 18-05-2024
+# Descripcion: Este script realiza -
+#Parametros/Variables
 nombre_usuario_generico=$1
 numero_usuarios=$2
 fecha=$(date +"%Y-%m-%d %H:%M")
@@ -615,12 +615,13 @@ for i in $(seq 1 1 $numero_usuarios)
     do
       nombre_usuario="$nombre_usuario_generico$i"
       password="$nombre_usuario"
-	 sudo useradd -m -p $(echo -n "$password" | openssl passwd -1 -stdin) "$nombre_usuario"
+	 sudo useradd -m -p $(echo -n "$password" | openssl passwd -1 -stdin) "$nombre_usuario" > /dev/null 2>&1
     sudo chage -d 0 "$nombre_usuario"
 
     echo "$nombre_usuario:$password" >> usuariosCreados-$fecha.tmp
     done
 cat "usuariosCreados-$fecha.tmp"
+
 ````
 
 </details>
