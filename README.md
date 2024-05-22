@@ -589,7 +589,7 @@ la ejecución del scrip
 # Author: Horacio Gomez y Alejandro Bayo
 # Version: 1.0
 # Fecha: 18-05-2024
-# Descripcion: Este script realiza -
+# Descripcion: Este script realiza una creación de usuarios de forma masiva, donde nosotros introducimos un nombre y número de usuarios que queramos. Además, la primera vez que entremos, tendremos que cambiar la contraseña, pero la primera contraseña para entrar es su nombre.
 #Parametros/Variables
 nombre_usuario_generico=$1
 numero_usuarios=$2
