@@ -1,6 +1,10 @@
-<h1 align="center">Trabajo Bloque V Horacio y Alejandro<a name="titulo"></a></h1>
+<h1 align="center">Trabajo Bloque V<a name="titulo"></a></h1>
 
 <img src="desktop-source-code-and-wallpaper-by-computer-language-with-coding-and-programming.jpg" alt="Descripción de la imagen" width="1100" height="700">
+<br>
+
+<h1 align="center">Alejandro Bayo y Horacio Gómez></h1>
+
 <br>
 
 **ÍNDICE**
