@@ -102,7 +102,7 @@ comprobar_apache &
 
 <h2>Tarea Programada</h2>
 
-<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/1.png" width="950" height="350">
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/1.png" width="1000" height="350">
 
 <br>
 
