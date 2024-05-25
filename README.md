@@ -113,7 +113,7 @@ comprobar_apache &
 
 <h2>Activamos el apache</h2>
 
-<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/2.png" alt="Descripción de la imagen" width="650" height="550">
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/2.png" alt="Descripción de la imagen" width="1015" height="350">
 
 <br>
 
@@ -124,7 +124,7 @@ comprobar_apache &
 
 <h2>Apache pausado</h2>
 
-<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/3.png" alt="Descripción de la imagen" width="650" height="550">
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/3.png" alt="Descripción de la imagen" width="1015" height="350">
 
 <br>
 
@@ -135,8 +135,7 @@ comprobar_apache &
 
 <h2>Reactivación del apache</h2>
 
-<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/4.png" alt="Descripción de la imagen" width="650" height="550">
-
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/4.png" alt="Descripción de la imagen" width="1015" height="350">
 <br>
 
 <p>Aqui podemos ver como el propio script reactiva el servidor apache una vez que estaba apagado</p>
@@ -146,7 +145,7 @@ comprobar_apache &
 
 <h2>Archivo creado</h2>
 
-<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/5.png" alt="Descripción de la imagen" width="650" height="550">
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/5.png" alt="Descripción de la imagen" width="1015" height="350">
 
 <br>
 
@@ -301,7 +300,7 @@ done
 
 <h2>Apartado 1 sin bloqueados y vista del menu</h2>
 
-<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/6.png" alt="Descripción de la imagen" width="650" height="550">
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/6.png" alt="Descripción de la imagen" width="1015" height="350">
 
 <br>
 
@@ -312,7 +311,7 @@ done
 
 <h2>Apartado 2 pregunta</h2>
 
-<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/7.png" alt="Descripción de la imagen" width="650" height="550">
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/7.png" alt="Descripción de la imagen" width="1015" height="350">
 
 <br>
 
@@ -323,7 +322,7 @@ done
 
 <h2>Apartado 2 ya bloqueado</h2>
 
-<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/8.png" alt="Descripción de la imagen" width="650" height="550">
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/8.png" alt="Descripción de la imagen" width="1015" height="350">
 
 <br>
 
@@ -334,7 +333,7 @@ done
 
 <h2>Apartado 3 pregunta</h2>
 
-<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/9.png" alt="Descripción de la imagen" width="650" height="550">
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/9.png" alt="Descripción de la imagen" width="1015" height="350">
 
 <br>
 
@@ -345,7 +344,7 @@ done
 
 <h2>Apartado 3 ya desbloqueado</h2>
 
-<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/10.png" alt="Descripción de la imagen" width="650" height="550">
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/10.png" alt="Descripción de la imagen" width="1015" height="350">
 
 <br>
 
@@ -356,7 +355,7 @@ done
 
 <h2>Apartado 4 pregunta</h2>
 
-<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/11.png" alt="Descripción de la imagen" width="650" height="550">
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/11.png" alt="Descripción de la imagen" width="1015" height="350">
 
 <br>
 
@@ -367,7 +366,7 @@ done
 
 <h2>Apartado 4 usuarios no conectados</h2>
 
-<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/12.png" alt="Descripción de la imagen" width="650" height="550">
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/12.png" alt="Descripción de la imagen" width="1015" height="350">
 <br>
 
 <p>Cuando intentamos cerrar sesion de un usuario que no esta conectado nos muestra este mensaje</p>
@@ -512,7 +511,7 @@ menu
 
 <h2>Menu</h2>
 
-<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/13.png" alt="Descripción de la imagen" width="650" height="550">
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/13.png" alt="Descripción de la imagen" width="1015" height="350">
 
 <br>
 
@@ -523,7 +522,7 @@ menu
 
 <h2>Creación de usuarios</h2>
 
-<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/14.png" alt="Descripción de la imagen" width="650" height="550">
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/14.png" alt="Descripción de la imagen" width="1015" height="350">
 
 <br>
 
@@ -534,7 +533,7 @@ menu
 
 <h2>Borrado de usuarios</h2>
 
-<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/15.png" alt="Descripción de la imagen" width="650" height="550">
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/15.png" alt="Descripción de la imagen" width="1015" height="350">
 
 <br>
 
@@ -545,7 +544,7 @@ menu
 
 <h2>Archivo</h2>
 
-<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/16.png" alt="Descripción de la imagen" width="650" height="550">
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/16.png" alt="Descripción de la imagen" width="1015" height="350">
 
 <br>
 
@@ -638,7 +637,7 @@ cat "usuariosCreados-$fecha.tmp"
 
 <h2>Introducción de comandos y variables</h2>
 
-<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/17.png" alt="Descripción de la imagen" width="650" height="550">
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/17.png" alt="Descripción de la imagen" width="1015" height="350">
 
 <br>
 
@@ -649,7 +648,7 @@ cat "usuariosCreados-$fecha.tmp"
 
 <h2>Muestreo del archivo temporal</h2>
 
-<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/18.png" alt="Descripción de la imagen" width="650" height="550">
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/18.png" alt="Descripción de la imagen" width="1015" height="350">
 
 <br>
 
@@ -671,7 +670,7 @@ cat "usuariosCreados-$fecha.tmp"
 
 <h2>Cambio de contraseñas</h2>
 
-<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/20.png" alt="Descripción de la imagen" width="650" height="550">
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/20.png" alt="Descripción de la imagen" width="1015" height="350">
 
 <br>
 
