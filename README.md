@@ -86,7 +86,7 @@ reiniciarapache() {
 #Bloque principal
 clear
 comprobarRoot
-comprobar_apache &
+comprobar_apache
 
 ````
 
@@ -96,7 +96,7 @@ comprobar_apache &
 <br>
 
 > [!CAUTION]
-> En este ejercicio no hemos tenido casi ningun problema pero la parte con algo de dificultad a sido el hecho de que se active cada 1 minuto y la hemos solucionado con un sleep en el el while true y la parte de que se ejecute cada 6 horas, todos los días. Y si el ordenador está apagado, se debe ejecutar la próxima vez que se inicie, transcurrido cinco minutos esta parte es la que nos resultado mas dificil y la hemos solucionado con un cambio en el fichero crontab con las caracteristicas que nos pide y la ejecucion del script.
+> En este ejercicio no hemos tenido casi ningun problema, pero la parte con algo de dificultad ha sido el hecho de que se active cada 1 minuto, lo hemos solucionado con un "sleep" en el while true en la parte para que se ejecute cada 6 horas, todos los días. Y si el ordenador está apagado, se debe ejecutar la próxima vez que se inicie, transcurrido cinco minutos esta parte es la que nos resultado mas dificil y la hemos solucionado con un cambio en el fichero "crontab" con las caracteristicas que nos pide y la ejecucion del script.
 
 <br>
 
@@ -106,18 +106,18 @@ comprobar_apache &
 
 <br>
 
-<p>Aqui tenemos el archivo que hara que se ejecute el script cada 6 horas todos los dias </p>
+<p>Aquí tenemos el archivo que hara que se ejecute el script cada 6 horas todos los días </p>
 
 <br>
 <br>
 
-<h2>Activamos el apache</h2>
+<h2>Procedemos a activamos el apache</h2>
 
 <img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/2.png" alt="Descripción de la imagen" width="1015" height="350">
 
 <br>
 
-<p>Aqui tenemos el resultado que da el script cuando el servidor apache esta running o activo</p>
+<p>Aquí tenemos el resultado que da el script cuando el servidor apache esta activado</p>
 
 <br>
 <br>
@@ -128,7 +128,7 @@ comprobar_apache &
 
 <br>
 
-<p>Esto es lo que se nos muertra por pantalla cuando el script esta comprobando pero el servidor apache esta apagado y a la vez se a quedado un archivo de error que veremos a continuacion </p>
+<p>Esto es lo que muestra por pantalla, cuando el script esta comprobando, pero el servidor apache esta apagado y a la vez se ha quedado un archivo de error que veremos a continuacion </p>
 
 <br>
 <br>
