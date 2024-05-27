@@ -314,7 +314,7 @@ done
 
 <br>
 
-<p>Aqui podemos ver el menu y aparte lo que nos mostraria por pantalla al introducir el numero 1 y no tener ningun usuario bloqueado</p>
+<p>Aquí podemos ver el menú y, aparte, lo que nos mostraría por pantalla al introducir el número 1 y no tener ningún usuario bloqueado.</p>
 
 <br>
 <br>
@@ -325,7 +325,7 @@ done
 
 <br>
 
-<p>Esto es lo que se nos mostraria al introducir el numero 2 en el menu, nos pediria el usuario que queramos bloquear</p>
+<p>Esto es lo que se nos mostraría al introducir el número 2 en el menú: nos pediría el usuario que queramos bloquear.</p>
 
 <br>
 <br>
@@ -347,7 +347,7 @@ done
 
 <br>
 
-<p>Si en el menu se pulsa el 3, nos mostraria esto por pantalla y nos preguntaria que que usuario queremos desbloquear</p>
+<p>Si en el menú se pulsa el 3, nos mostraría esto por pantalla y nos preguntaría qué usuario queremos desbloquear.</p>
 
 <br>
 <br>
@@ -358,7 +358,7 @@ done
 
 <br>
 
-<p>Cuando en el apartado anterior le insertamos un usuario obtenemos este mensaje</p>
+<p>Cuando en el apartado anterior insertamos un usuario, obtenemos este mensaje.</p>
 
 <br>
 <br>
@@ -369,7 +369,7 @@ done
 
 <br>
 
-<p>Si seleccionamos el apartado 4 del menu nos muestra esta pestaña en la cual tendremos que escribir el nombre de ususario que queremos cerrar sesion</p>
+<p>Si seleccionamos el apartado 4 del menú, nos muestra esta pestaña en la cual tendremos que escribir el nombre de usuario del que queremos cerrar sesión.</p>
 
 <br>
 <br>
@@ -379,7 +379,7 @@ done
 <img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/12.png" alt="Descripción de la imagen" width="1015" height="350">
 <br>
 
-<p>Cuando intentamos cerrar sesion de un usuario que no esta conectado nos muestra este mensaje</p>
+<p>Cuando intentamos cerrar sesión de un usuario que no está conectado, nos muestra este mensaje.</p>
 
 <br>
 <br>
@@ -525,7 +525,7 @@ menu
 
 <br>
 
-<p>Aqui tenemos el menu que se nos pedia en el ejercicio</p>
+<p>Aqui tenemos el menu que se nos pedia en el ejercicio.</p>
 
 <br>
 <br>
@@ -536,7 +536,7 @@ menu
 
 <br>
 
-<p>El script lee el archivo que previamente se nos a dado en el ejercicio y hemos creado en el root ,y nos crea los usuarios que le hemos indicado en el archivo</p>
+<p>El script lee el archivo que previamente se nos ha dado en el ejercicio y que hemos creado en el root, y nos crea los usuarios que le hemos indicado en el archivo.</p>
 
 <br>
 <br>
@@ -547,7 +547,7 @@ menu
 
 <br>
 
-<p>Aqui nos muestra el listado de usuarios borrados apartir del archivo que le hemos proporcionado</p>
+<p>Aquí nos muestra el listado de usuarios borrados a partir del archivo que le hemos proporcionado.</p>
 
 <br>
 <br>
@@ -558,7 +558,7 @@ menu
 
 <br>
 
-<p>Podemos ver que el archivo se ha creado en la ruta indicada, y contiene los nombres y apellidos de los usuarios del sistema</p>
+<p>Podemos ver que el archivo se ha creado en la ruta indicada y contiene los nombres y apellidos de los usuarios del sistema.</p>
 
 <br>
 <br>
@@ -650,7 +650,7 @@ cat "usuariosCreados-$fecha.tmp"
 
 <br>
 
-<p>Aqui tenemos como debemos llamar al script ya que tenemos que colocar como primera variable el nombre que usuarn los usuarios y como segunda variable el numero de usuarios que vamos a quedar. en este caso sera Hora y 3 </p>
+<p>Aquí tenemos cómo debemos llamar al script, ya que tenemos que colocar como primera variable el nombre que usarán los usuarios y como segunda variable el número de usuarios que vamos a crear. En este caso, será 'Hora' y 3. </p>
 
 <br>
 <br>
@@ -661,18 +661,18 @@ cat "usuariosCreados-$fecha.tmp"
 
 <br>
 
-<p>Aqui nos muestra los usuarios creados con sus respectivas contraseñas </p>
+<p>Aquí se muestran los usuarios creados con sus respectivas contraseñas. </p>
 
 <br>
 <br>
 
-<h2>Usuarios creados comando passwd</h2>
+<h2>Usuarios creados comando "passwd"</h2>
 
 <img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Usuarios%20creados%20comando%20passwd.png" alt="Descripción de la imagen" width="650" height="550">
 
 <br>
 
-<p>Aqui tenemos una verificacion de que los usuarios estan creados perfectamente</p>
+<p>Aquí tenemos una verificación de que los usuarios están creados perfectamente.</p>
 
 <br>
 <br>
@@ -683,7 +683,7 @@ cat "usuariosCreados-$fecha.tmp"
 
 <br>
 
-<p>En esta imagen se puede ver la ejecución del script y el archivo generado con los resultados de la búsqueda</p>
+<p>En esta imagen se puede ver la ejecución del script y el archivo generado con los resultados de la búsqueda.</p>
 
 <br>
 <br>
