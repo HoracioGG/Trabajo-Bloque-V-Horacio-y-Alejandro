@@ -96,7 +96,7 @@ comprobar_apache
 <br>
 
 > [!CAUTION]
-> En este ejercicio no hemos tenido casi ningun problema, pero la parte con algo de dificultad ha sido el hecho de que se active cada 1 minuto, lo hemos solucionado con un "sleep" en el while true en la parte para que se ejecute cada 6 horas, todos los días. Y si el ordenador está apagado, se debe ejecutar la próxima vez que se inicie, transcurrido cinco minutos esta parte es la que nos resultado mas dificil y la hemos solucionado con un cambio en el fichero "crontab" con las caracteristicas que nos pide y la ejecucion del script.
+> En este ejercicio no hemos tenido casi ningún problema, pero la parte con algo de dificultad ha sido el hecho de que se active cada 1 minuto. Lo hemos solucionado con un "sleep" en el while true. La parte para que se ejecute cada 6 horas, todos los días, y si el ordenador está apagado, se debe ejecutar la próxima vez que se inicie, transcurrido cinco minutos, ha sido la que nos ha resultado más difícil y la hemos solucionado con un cambio en el fichero "crontab" con las características que nos pide y la ejecución del script.
 
 <br>
 
@@ -106,18 +106,18 @@ comprobar_apache
 
 <br>
 
-<p>Aquí tenemos el archivo que hara que se ejecute el script cada 6 horas todos los días </p>
+<p>Aquí tenemos el archivo que hará que se ejecute el script cada 6 horas todos los días</p>
 
 <br>
 <br>
 
-<h2>Procedemos a activamos el apache</h2>
+<h2>Procedemos a activamos el Apache</h2>
 
 <img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/2.png" alt="Descripción de la imagen" width="1015" height="350">
 
 <br>
 
-<p>Aquí tenemos el resultado que da el script cuando el servidor apache esta activado</p>
+<p>Aquí tenemos el resultado que da el script cuando el servidor Apache está activado</p>
 
 <br>
 <br>
@@ -128,17 +128,17 @@ comprobar_apache
 
 <br>
 
-<p>Esto es lo que muestra por pantalla, cuando el script esta comprobando, pero el servidor apache esta apagado y a la vez se ha quedado un archivo de error que veremos a continuacion </p>
+<p>Esto es lo que muestra por pantalla, cuando el script está comprobando pero el servidor Apache está apagado y además se ha creado un archivo de error que veremos a continuación</p>
 
 <br>
 <br>
 
-<h2>Reactivación del apache</h2>
+<h2>Reactivación del Apache</h2>
 
 <img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/4.png" alt="Descripción de la imagen" width="1015" height="350">
 <br>
 
-<p>Aqui podemos ver como el propio script reactiva el servidor apache una vez que estaba apagado</p>
+<p>Aquí podemos ver cómo el propio script reactiva el servidor Apache una vez que estaba apagado</p>
 
 <br>
 <br>
@@ -149,7 +149,7 @@ comprobar_apache
 
 <br>
 
-<p>Este es el archivo que se nos crearia automaticamente el cual almacena un mensaje de la fecha en la que el servidor apache estuvo parado,con un cat vemos el interior del archivo</p>
+<p>Este es el archivo que se nos crearía automáticamente, el cual almacena un mensaje de la fecha en la que el servidor Apache estuvo parado. Con un cat vemos el interior del archivo</p>
 
 <br>
 <br>
@@ -295,7 +295,8 @@ done
 <br>
 
 > [!CAUTION]
-> Este script ya nos a resultado mas dificil que el anterior y las partes mas dificil an sido la de buscar los comandos para forzar las acciones sobre los usuarios y los hemos solucionado con el comando passwd con sus distintas opciones y el comadno pkill .
+> Este script ya nos ha resultado más difícil que el anterior y las partes más difíciles han sido la de buscar los comandos para forzar las acciones sobre los usuarios. Los hemos conseguido encontrar buscando información sobre cómo ejecutar comandos en la terminal que afecten a las sesiones y permisos de los usuarios. Otra parte complicada ha sido la parte de que si el usuario lleva más de 30 minutos (1800 seg) sin actividad, se le cierra la sesión. La dificultad aquí radica en determinar el tiempo de inactividad de un usuario y luego forzar el cierre de la sesión de ese usuario si ha excedido el límite de tiempo. Sin embargo, con la lógica de pkill -KILL -u "$usuario" se ha solucionado.
+
 <br>
 
 <h2>Apartado 1 sin bloqueados y vista del menu</h2>
@@ -506,7 +507,7 @@ menu
 <br>
 
 > [!CAUTION]
-> Los problemas de este ejercicio an sido el hecho de crear los usuarios con los datos del archico ya que tuvimos que extraer los datos del archivo en variables y despues insertarlos en el comando useradd eso a sido de lo mas dificil de este script, aparte hemos tenido un problema a la hora de mostrar los resultados de las creaciones y los borrados ya que no sabemos el porque tambien añadia al usuario principal.
+> En este ejercicio, la principal dificultad ha sido el procesamiento del campo "gecos" del fichero /etc/passwd y asegurar que se obtenga correctamente el nombre y apellidos de cada usuario. Lo hemos solucionado utilizando el comando awk -F':' '$3 >= 1000 && $3 < 2000 {print $5}' /etc/passwd, que nos permite extraer el campo "gecos" de los usuarios con UID entre 1000 y 2000. Además, hemos tenido que asegurarnos de que el archivo se cree correctamente en el directorio /tmp, y que se actualice cada día a las 7:00 am mediante una tarea programada en el cron, la cual se realiza con el siguiente comando: 0 7 * * * 
 <br>
 
 <h2>Menu</h2>
@@ -548,7 +549,7 @@ menu
 
 <br>
 
-<p>Aqui tenemos el archivo que hemos tenido que insertar en el root, mostrando su informacion respectiva</p>
+<p>Podemos ver que el archivo se ha creado en la ruta indicada, y contiene los nombres y apellidos de los usuarios del sistema</p>
 
 <br>
 <br>
@@ -632,7 +633,7 @@ cat "usuariosCreados-$fecha.tmp"
 <br>
 
 > [!CAUTION]
-> Los problemas que nos hemos encontrado en este script es el sumar un numero para cada vez que se creaba un usuarior pero lo hemos solucionado con el seq y despues otro problemas que nos hemos encontrado y uno de los mas dificiles de todo el boletin es el hecho de poner la contraseña de los usuarios ya que lo hemos intentado de muchas formas pero ninguna nos funcionaba hasta que buscamos y el problema que encontramos era que la contraseña necesitaba una encriptacion para poder activarse y lo hemos solucionado con el openssl passwd -1 -stdin que es un metodo de encriptacion de contraseña, despues otro problema a sido cuando hemos tenido que forzar que cuando inicies por primera vez ese usuario te fuerze a cambiar la contraseña en este caso hemos utilizaedo el chage -d 0 que lo que hace es establecer una fecha de expiracion de la contraseña y asi te fuerze a cambiarla la primera vez que inicies el usuario.
+> Este script ha sido sencillo de implementar utilizando el comando find para buscar archivos por extensión y tamaño. La principal dificultad ha sido asegurarnos de que los parámetros se pasen correctamente y que el script se ejecute con privilegios de root para garantizar el acceso a todos los archivos y directorios necesarios. Hemos solucionado esto con la función comprobarRoot que verifica si el script se ejecuta como root.
 <br>
 
 <h2>Introducción de comandos y variables</h2>
@@ -674,7 +675,7 @@ cat "usuariosCreados-$fecha.tmp"
 
 <br>
 
-<p>Aqui podemos ver que la primera vez que nos logueamos en los usuarios nos pide que se la cambiemos como nos pide en el ejercicio</p>
+<p>En esta imagen se puede ver la ejecución del script y el archivo generado con los resultados de la búsqueda</p>
 
 <br>
 <br>
