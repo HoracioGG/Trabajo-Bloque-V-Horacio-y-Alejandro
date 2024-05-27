@@ -727,13 +727,13 @@ los usuarios cuyo uid >1000 y uid<2000.
 
 <p>-Hemos usado los boletines de scripts intermedios hechos en clase y tambien los que usamos para el examen.</p>
 
-<p>-Tambien Hemos usado el temario del que disponemos en la moodle.</p>
+<p>-Tambien hemos usado el temario del que disponemos en la Moodle.</p>
 
 <p>-Esta es una pagina web en la que hemos encontrado ayuda para las opciones de algunos comandos y busqueda de otros ya que es un manual de los mismos.</p>
 
 <a href="">https://www.gnu.org/software/bash/manual/bash.html</a>
 
-<p>-Esta es una ia muy completa que hemos encontrado la cual la hemos usado para resolver dudas que ya se nos hacian imposible sacar como la encriptacion de la contraseña del ejercicio 4 </p>
+<p>-Esta es una ia muy completa que hemos encontrado la cual la hemos usado para resolver dudas que ya se nos hacian imposible sacar como la encriptacion de la contraseña del ejercicio 4</p>
 
 <a href="">https://www.solab.ai/</a>
 
