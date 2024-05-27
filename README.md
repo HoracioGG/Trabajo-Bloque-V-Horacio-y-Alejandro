@@ -54,7 +54,7 @@
 # Author: Horacio Gomez y Alejandro bayo
 # Version: 1.0
 # Fecha: 15-05-2024
-# Descripcion: Este script realiza -
+# Descripcion: 
 Parametros/Variables
 fecha=$(date +"%Y-%m-%d %H:%M")
 #Funciones
@@ -197,7 +197,25 @@ minutos (1800 seg) sin actividad, se le cierra la sesión.<br>
 # Author: Horacio Gomez y Alejandro Bayo
 # Version: 1.0
 # Fecha: 14-05-2024
-# Descripcion: Este script realiza -
+# Descripción:
+
+En este script hemos hecho un menú que está separado por 5 apartados. Primero, antes de entrar en el menú, hemos puesto una función comprobarRoot para que este script solo lo pueda ejecutar el administrador.
+
+    Apartado 1: usuariosBloqueados
+    Lo hemos hecho con un "awk" para seleccionar los usuarios que ya estén bloqueados en el equipo.
+
+    Apartado 2: bloquearUsuario
+    Hemos usado el mismo método que en el apartado anterior para buscar al usuario y con un "passwd -l" lo bloqueamos.
+
+    Apartado 3: desbloquearUsuario
+    Nos pide con el "read -p" el usuario que queremos desbloquear y con el passwd -u lo desbloqueamos.
+
+    Apartado 4: cerrarSesion
+    Cerramos la sesión del usuario con un "pkill -KILL -u".
+
+    Apartado 5: salida
+    Es la salida del script, lo cual hace que al pulsar el botón 5 nos saque del script.
+
 #Parametros/Variables
 menu ()
 {
@@ -213,16 +231,16 @@ menu ()
 
 case $opcion in
 1)
-    UsuariosBloqueados
+    usuariosBloqueados
     ;;
 2)
-    BloquearUsuario
+    bloquearUsuario
     ;;
 3)
-    DesbloquearUsuario
+    desbloquearUsuario
     ;;
 4)
-    CerrarSesion
+    cerrarSesion
     ;;
 
 5)
@@ -244,21 +262,19 @@ comprobarRoot ()
     fi
 }
 
-UsuariosBloqueados() {
+usuariosBloqueados() {
 	clear
 	echo "Usuarios Bloqueados:"
 	awk -F':' '$3 >=1000 && $3 < 2000 { system("passwd -S " $1) }' /etc/passwd | awk '$2 == "L" { print $1 }'
 }
-
-BloquearUsuario() {
+bloquearUsuario() {
 	clear
 	read -p "Introduce el nombre de usuario a bloquear: " usuario
 	passwd -l $usuario
 	clear
 	echo "Usuario $usuario bloqueado correctamente."
 }
-
-DesbloquearUsuario() {
+desbloquearUsuario() {
 	clear
 	read -p "Introduce el nombre de usuario a desbloquear: " usuario
 	passwd -u $usuario
@@ -266,7 +282,7 @@ DesbloquearUsuario() {
 	echo "Usuario $usuario desbloqueado correctamente."
 }
 
-CerrarSesion() {
+dcrrarSesion() {
 	clear
 	read -p "Introduce el nombre de usuario para cerrar sesión: " usuario
 	clear
