@@ -114,18 +114,6 @@ cat $informe | grep -w "running" > /dev/null
 <br>
 <br>
 
-<h2>Apache pausado</h2>
-
-<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/assets/165705848/f7f913c6-c668-4a24-9956-da7076f54728" width="1015" height="350">
-
-
-<br>
-
-<p>Esto es lo que muestra por pantalla, cuando el script está comprobando pero el servidor Apache está apagado y además se ha creado un archivo de error que veremos a continuación.</p>
-
-<br>
-<br>
-
 <h2>Reactivación del Apache</h2>
 
 <img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/assets/165705848/81794f73-0abe-44f6-81ed-d0e37eb9cb80" alt="Descripción de la imagen" width="1015" height="350">
@@ -144,9 +132,19 @@ cat $informe | grep -w "running" > /dev/null
 
 <p>Este es el archivo que se nos crearía automáticamente, el cual almacena un mensaje de la fecha en la que el servidor Apache estuvo parado. Con un cat vemos el interior del archivo</p>
 
-<br>
-<br>
+<h2>Archivo running</h2>
 
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/assets/165705848/654909f3-b092-4379-938e-a2b4542c1271" width="1015" height="350">
+
+<br>
+<p>Aquí podemos ver el interior del archivo cuando del servidor esta running</p>
+<br>
+<h2>Archivo Dead</h2>
+
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/assets/165705848/8fca43b8-b37f-40d7-950c-68c2e4c9ea44" width="1015" height="350">
+
+<br>
+<p>Aquí podemos ver el interior del archivo cuando del servidor esta dead o fuera de servicio,</p>
 <hr>
 
 <br>
