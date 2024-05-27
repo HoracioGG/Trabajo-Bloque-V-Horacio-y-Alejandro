@@ -54,40 +54,32 @@
 # Author: Horacio Gomez y Alejandro bayo
 # Version: 1.0
 # Fecha: 15-05-2024
-# Descripcion: 
-Parametros/Variables
+# Descripcion: Este script realiza la comprobación del servidor Apache, reporta los fallos del mismo y también levanta el servidor en caso de que esté caído
+#Parametros/Variables
 fecha=$(date +"%Y-%m-%d %H:%M")
+informe=EstadoApache2.txt
+status=$(systemctl status apache2)
+reiniciar=$(systemctl restart apache2)
 #Funciones
-comprobarRoot ()
+comprobarRoot()
 {
-    if [ "$(id -u)" != "0" ]
-    then
-   	 echo "Este script solo puede ser ejecutado por el root"
-   	 exit
-    fi
+	if [ "$(id -u)" != "0" ];
+    	then   
+        	echo "Este script solo puede ser ejecutado por el Root"
+        	exit
+	fi
 }
-comprobarapache() {
-	while true; do
-
-    	if systemctl is-active --quiet apache2;
-    	then
-        	echo "El servicio Apache está activo."
-    	else
-        	echo "El servicio Apache está parado."
-        	reiniciar_apache
-    	fi
-    	sleep 60
-	done
-}
-reiniciarapache() {
-	echo "Error-Apache: $fecha" >> /root/ApacheError.tmp
-	systemctl restart apache2
-}
-#Bloque principal
+#BloquePrincipal
 clear
 comprobarRoot
-comprobar_apache
-
+echo "$status" > $informe
+cat $informe | grep -w "running" > /dev/null
+	if [ $? -eq 0 ];
+    	then echo "El servicio esta activo"
+    	else echo "Error apache: $fecha" >> /root/ApacheError.tmp
+        	echo "$reiniciar"
+        	echo " El servicio ha sido reiniciado"
+	fi
 ````
 
 
@@ -197,24 +189,23 @@ minutos (1800 seg) sin actividad, se le cierra la sesión.<br>
 # Author: Horacio Gomez y Alejandro Bayo
 # Version: 1.0
 # Fecha: 14-05-2024
-# Descripción:
+# Descripcion:
+#En este script hemos hecho un menú que está separado por 5 apartados. Primero, antes de entrar en el menú, hemos puesto una función comprobarRoot para que este script solo lo pueda ejecutar el administrador.
 
-En este script hemos hecho un menú que está separado por 5 apartados. Primero, antes de entrar en el menú, hemos puesto una función comprobarRoot para que este script solo lo pueda ejecutar el administrador.
+    #Apartado 1: usuariosBloqueados
+    #Lo hemos hecho con un "awk" para seleccionar los usuarios que ya estén bloqueados en el equipo.
 
-    Apartado 1: usuariosBloqueados
-    Lo hemos hecho con un "awk" para seleccionar los usuarios que ya estén bloqueados en el equipo.
+    #Apartado 2: bloquearUsuario
+    #Hemos usado el mismo método que en el apartado anterior para buscar al usuario y con un "passwd -l" lo bloqueamos.
 
-    Apartado 2: bloquearUsuario
-    Hemos usado el mismo método que en el apartado anterior para buscar al usuario y con un "passwd -l" lo bloqueamos.
+    #Apartado 3: desbloquearUsuario
+    #Nos pide con el "read -p" el usuario que queremos desbloquear y con el passwd -u lo desbloqueamos.
 
-    Apartado 3: desbloquearUsuario
-    Nos pide con el "read -p" el usuario que queremos desbloquear y con el passwd -u lo desbloqueamos.
+    #Apartado 4: cerrarSesion
+    #Cerramos la sesión del usuario con un "pkill -KILL -u".
 
-    Apartado 4: cerrarSesion
-    Cerramos la sesión del usuario con un "pkill -KILL -u".
-
-    Apartado 5: salida
-    Es la salida del script, lo cual hace que al pulsar el botón 5 nos saque del script.
+    #Apartado 5: salida
+    #Es la salida del script, lo cual hace que al pulsar el botón 5 nos saque del script.
 
 #Parametros/Variables
 menu ()
@@ -231,16 +222,16 @@ menu ()
 
 case $opcion in
 1)
-    usuariosBloqueados
+    UsuariosBloqueados
     ;;
 2)
-    bloquearUsuario
+    BloquearUsuario
     ;;
 3)
-    desbloquearUsuario
+    DesbloquearUsuario
     ;;
 4)
-    cerrarSesion
+    CerrarSesion
     ;;
 
 5)
@@ -262,19 +253,21 @@ comprobarRoot ()
     fi
 }
 
-usuariosBloqueados() {
+UsuariosBloqueados() {
 	clear
 	echo "Usuarios Bloqueados:"
 	awk -F':' '$3 >=1000 && $3 < 2000 { system("passwd -S " $1) }' /etc/passwd | awk '$2 == "L" { print $1 }'
 }
-bloquearUsuario() {
+
+BloquearUsuario() {
 	clear
 	read -p "Introduce el nombre de usuario a bloquear: " usuario
 	passwd -l $usuario
 	clear
 	echo "Usuario $usuario bloqueado correctamente."
 }
-desbloquearUsuario() {
+
+DesbloquearUsuario() {
 	clear
 	read -p "Introduce el nombre de usuario a desbloquear: " usuario
 	passwd -u $usuario
@@ -282,7 +275,7 @@ desbloquearUsuario() {
 	echo "Usuario $usuario desbloqueado correctamente."
 }
 
-dcrrarSesion() {
+CerrarSesion() {
 	clear
 	read -p "Introduce el nombre de usuario para cerrar sesión: " usuario
 	clear
@@ -434,9 +427,10 @@ BorrarUsuarios → Borra de forma masiva usuarios almacenados en el fichero
 # Author: Horacio Gomez y Alejandro Bayo
 # Version: 1.0
 # Fecha: 18-05-2024
-# Descripcion: Este script realiza -
-#Parametros/Variables
+# Descripcion: En este script, empezamos usando una función para comprobar el root con un bucle “if”. Después, usando un “while true”, representamos un menú en pantalla para que el usuario pueda seleccionar las distintas partes del script. En la opción uno, tenemos la función para crear un usuario, para lo cual usamos un “while read” que permite seleccionar línea por línea las características de los usuarios, y después, con un “useradd”, se crean los usuarios. Para borrar los usuarios, usamos un “while read” y con el “userdel” los eliminamos.
 
+#Parametros/Variables
+encrypted_password=$(openssl passwd -6 "$contrasena")
 #Funciones
 comprobarRoot ()
 {
@@ -485,7 +479,7 @@ crearUsuarios()
     	apellido=$(echo $linea | cut -d: -f4)
     	correo=$(echo $linea | cut -d: -f5)
    	 
-    	sudo useradd -m -s /bin/bash -p $contrasena -c "$nombre $apellido" -e "2025-05-18" $usuario > /dev/null 2>&1
+    	sudo useradd -m -s /bin/bash -p $encrypted_password -c "$nombre $apellido" -e "2025-05-18" $usuario > /dev/null 2>&1
                 	if [ $? -eq 0  ];
                 	then
                     	echo "El usuario: $usuario ha sido creado."
@@ -515,7 +509,6 @@ borrarUsuarios()
 clear
 comprobarRoot
 menu
-
 ```
 
 </details>
@@ -641,7 +634,6 @@ for i in $(seq 1 1 $numero_usuarios)
     echo "$nombre_usuario:$password" >> usuariosCreados-$fecha.tmp
     done
 cat "usuariosCreados-$fecha.tmp"
-
 ````
 
 </details>
