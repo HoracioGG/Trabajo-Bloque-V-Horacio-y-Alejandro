@@ -105,7 +105,7 @@ cat $informe | grep -w "running" > /dev/null
 
 <h2>Procedemos a activamos el Apache</h2>
 
-<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/2.png" alt="Descripción de la imagen" width="1015" height="350">
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/assets/165705848/c3b091fd-37c0-426f-aefd-a787bb3ada69" width="1015" height="350">
 
 <br>
 
@@ -116,18 +116,19 @@ cat $informe | grep -w "running" > /dev/null
 
 <h2>Apache pausado</h2>
 
-<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/3.png" alt="Descripción de la imagen" width="1015" height="350">
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/assets/165705848/f7f913c6-c668-4a24-9956-da7076f54728" width="1015" height="350">
+
 
 <br>
 
-<p>Esto es lo que muestra por pantalla, cuando el script está comprobando pero el servidor Apache está apagado y además se ha creado un archivo de error que veremos a continuación</p>
+<p>Esto es lo que muestra por pantalla, cuando el script está comprobando pero el servidor Apache está apagado y además se ha creado un archivo de error que veremos a continuación.</p>
 
 <br>
 <br>
 
 <h2>Reactivación del Apache</h2>
 
-<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/blob/main/Git/4.png" alt="Descripción de la imagen" width="1015" height="350">
+<img src="https://github.com/HoracioGG/Trabajo-Bloque-V-Horacio-y-Alejandro/assets/165705848/81794f73-0abe-44f6-81ed-d0e37eb9cb80" alt="Descripción de la imagen" width="1015" height="350">
 <br>
 
 <p>Aquí podemos ver cómo el propio script reactiva el servidor Apache una vez que estaba apagado</p>
